@@ -52,9 +52,9 @@ export default function Aboutus(){
                   </div>
 
              <StaticUi/>
-             <StaticComp2/>
+           {/*   <StaticComp2/>
              <StaticComp3/>
-             <StaticComp4/>
+             <StaticComp4/> */}
              
              
             </div>
