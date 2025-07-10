@@ -4,7 +4,7 @@ const WhyUsUI2 = ({ heading, description, imageSrc, features }) => {
   return (
     <section className="bg-[#f7f7e5] py-16 px-4 md:px-12">
       <div className="w-full mx-auto text-center">
-        <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+        <h2 className="text-3xl md:text-5xl font-outfit text-gray-900 mb-6 leading-tight">
           {heading}
         </h2>
         <p className="text-gray-600 max-w-3xl mx-auto mb-10">{description}</p>

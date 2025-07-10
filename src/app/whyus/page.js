@@ -11,6 +11,7 @@ import {
   FaMicrochip,
   FaFlag,
 } from "react-icons/fa";
+import Footer from "@/components/Footer/Footer";
 
 
 
@@ -19,34 +20,56 @@ export default function WhyUs() {
 
 
 
-      const shippingData = {
-    tag: "TRAVEL TO DELIVER",
-    heading: "Travel-Driven Shipping",
-    subheading:
-      "Revolutionizing package delivery—connect, save, earn, and trust in a global network.",
-    features: [
-      {
-        icon: <></>,
-        title: "Worldwide",
-        description: "Send packages globally from any city with matching travelers.",
-      },
-      {
-        icon:<></> ,
-        title: "Profitable",
-        description: "Earn money on travel and fund future trips at reduced costs.",
-      },
-      {
-        icon:<></> ,
-        title: "Economical",
-        description: "Reduce shipping costs by matching travelers to carry packages.",
-      },
-      {
-        icon: <></>,
-        title: "Secure Payment",
-        description: "Payments are safely held until delivery or refunded if the trip is canceled.",
-      },
-    ],
-  };
+const shippingData = {
+  tag: "WHY CHOOSE GREEN FARMHOUSE",
+  heading: "Peaceful Living Meets Smart Investment",
+  subheading:
+    "At Green Farmhouse, we don’t just offer land—we offer a lifestyle that blends peace, potential, and smart planning.",
+  features: [
+    {
+      icon: <></>,
+      title: "Strategic Location",
+      description:
+        "Located on Dariyabad–Safdarganj Road, our project offers rural calm with city access. Ideal for daily commuting from Barabanki or weekend visits from Lucknow.",
+    },
+    {
+      icon: <></>,
+      title: "Farmhouse-Ready Plots",
+      description:
+        "Plots come ready for transformation—plant trees, set up fencing, install water sources, lighting, and gardens without starting from scratch.",
+    },
+    {
+      icon: <></>,
+      title: "Long-Term Land Value",
+      description:
+        "Benefit from regional development. Roads, water bodies, and upgrades in the area ensure your investment grows over time.",
+    },
+    {
+      icon: <></>,
+      title: "Transparent & Trustworthy Process",
+      description:
+        "All plots come with clear titles, defined boundaries, and easy documentation. No hidden charges or surprises.",
+    },
+    {
+      icon: <></>,
+      title: "Live Close to Nature",
+      description:
+        "Enjoy green surroundings, clean air, and a quiet environment that supports stress-free, healthy living.",
+    },
+    {
+      icon: <></>,
+      title: "Low Maintenance, High Flexibility",
+      description:
+        "Whether fully developed or DIY at your pace, plots offer flexibility without the burden of constant upkeep.",
+    },
+    {
+      icon: <></>,
+      title: "Customer Support You Can Count On",
+      description:
+        "From visits to paperwork and after-sales service, we assist you throughout. We're more than sellers—we're partners.",
+    },
+  ],
+};
 
  const dummyWhyUsData   = {
   tag: "WHY CHOOSE US",
@@ -93,23 +116,44 @@ export default function WhyUs() {
   ],
 };
 
-
- const perfumeData = {
-    heading: "We take pride in crafting exceptional perfumes that evoke emotion",
-    description:
-      "Central to our commitment to quality and innovation is the careful selection of premium ingredients that compose our exquisite fragrances. Each scent is a symphony of harmonious notes, meticulously blended to create a captivating olfactory experience. We believe in transparency and want to share the essence of our creations with you.",
-    imageSrc: "/image/25.png", // Replace with real image path in public folder
-    features: [
-      { icon: <FaBolt />, title: "Premium Quality" },
-      { icon: <FaRocket />, title: "Unique Blends" },
-      { icon: <FaMicrochip />, title: "Innovation Hub" },
-      { icon: <FaFlag />, title: "Customer Centric" },
-    ],
-  };
+const perfumeData = {
+  tag: "CRAFTED FOR THE SENSES",
+  heading:
+    "We take pride in crafting exceptional perfumes that evoke emotion",
+  subheading:
+    "At the heart of every fragrance lies our promise of premium ingredients, careful formulation, and creative expression. Every bottle is a story, every note a feeling.",
+  imageSrc: "/image/25.png", // Replace with the actual image path
+  features: [
+    {
+      icon: <FaBolt />,
+      title: "Premium Quality",
+      description:
+        "We use only high-grade ingredients to ensure long-lasting and refined fragrances.",
+    },
+    {
+      icon: <FaRocket />,
+      title: "Unique Blends",
+      description:
+        "Our scents are thoughtfully composed to deliver one-of-a-kind olfactory experiences.",
+    },
+    {
+      icon: <FaMicrochip />,
+      title: "Innovation Hub",
+      description:
+        "Combining tradition with modernity, we explore new methods to push fragrance boundaries.",
+    },
+    {
+      icon: <FaFlag />,
+      title: "Customer Centric",
+      description:
+        "We create with you in mind—your preferences, feedback, and satisfaction drive us.",
+    },
+  ],
+};
 
 
   return (
-    <div className="w-full flex flex-col justify-center items-center bg-[#fff] pt-[141px]">
+    <div className="w-full flex flex-col justify-center items-center bg-[#fff] pt-[71px]">
         <HeaderNew/>
 
 
@@ -125,6 +169,7 @@ export default function WhyUs() {
 
  <WhyUsUI {...shippingData} />
  <WhyUsUI2 {...perfumeData} />
+ <Footer/>
 
     </div>
   );
