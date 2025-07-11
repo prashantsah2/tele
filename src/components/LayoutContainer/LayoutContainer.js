@@ -9,10 +9,10 @@ export default function LayoutContainer() {
 
     
   return (
-    <div className="flex flex-col justify-center items-center w-full bg-[#f3f3d2] min-h-[100vh] pt-8 px-8 pb-8 max-sm:px-4">
+    <div className="flex flex-col justify-center items-center w-full bg-[#f3f3d2] max-sm:px-4">
       
 
-      <Image
+      <img
         src="/image/8.png"
         alt="Description of image"
         width={500}

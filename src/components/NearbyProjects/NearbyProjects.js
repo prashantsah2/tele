@@ -53,19 +53,19 @@ export default function NearbyProjects() {
 
 return(
 
-<div className="flex flex-col justify-center items-center w-full min-h-[100vh] bg-[#dbb612] py-12 ">
+<div className="flex flex-col justify-center items-center w-full min-h-[100vh] bg-[#dbb612] py-12 max-lg:px-4">
   <div className="flex flex-col justify-center items-center">
-    <p className="text-[41px] text-[#222] font-outfit">Nearby Projects</p>
+    <p className="text-[41px] text-[#222] font-outfit max-lg:text-[31px]">Nearby Projects</p>
   </div>
 
-  <div className="flex flex-col justify-center items-center w-full  px-4 py-8 text-[#fff]">
+  <div className="flex flex-col justify-center items-center w-full  px-4 py-8 text-[#fff] max-sm:px-0">
    {data.map((item,index)=>{
 
     return(
-    <div key={index} className="flex flex-row justify-center items-start w-full mb-8 p-4 rounded-lg">
+    <div key={index} className="flex flex-row justify-center items-start w-full mb-8 p-4 rounded-lg max-lg:flex-col max-md:px-0">
       <Image src={item.image} alt={item.title} width={500} height={400} className="w-full aspect-[2] object-cover rounded-lg mb-4" />
-      <div className="flex flex-col justify-start items-start w-full pl-4">
-         <h3 className="text-xl font-medium mb-2 font-outfit text-[#fff]">{item.title}</h3>
+      <div className="flex flex-col justify-start items-start w-full pl-4 max-md:pl-0">
+         <h3 className="text-xl font-medium mb-2 font-outfit text-[#fff] w-full">{item.title}</h3>
       <p className="text-sm font-outfit">{item.description}</p>
       <p className="text-sm font-outfit">{item.description2}</p>
       <p className="text-sm font-outfit">{item.descriptio3}</p>

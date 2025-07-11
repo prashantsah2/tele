@@ -32,6 +32,16 @@ const config: Config = withMT({
         'lg': '1024px',
         'xl': '1280px',
         '2xl': '1536px',
+        
+
+        "max-2xl": { max: "1535px" },
+
+        "max-xl": { max: "1279px" },
+        "max-lg2": { max: "1149px" },
+        "max-lg": { max: "1023px" },
+        "max-md": { max: "767px" },
+        "max-sm": { max: "639px" },
+        "max-xs": { max: "479px" },
       },
       flexBasis: {
         '1/2': '50%',

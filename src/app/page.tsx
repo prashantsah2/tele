@@ -56,15 +56,16 @@ export default function Campaign() {
       <div className="w-full flex justify-center items-center flex-col bg-[#f9f9d9]">
      
       
-       <StaticComp4 data={dataforstat4}/>
-       <KeyFeatures/>
-       <LayoutContainer/>
+   <StaticComp4 data={dataforstat4}/>
+            <KeyFeatures/>
+      <LayoutContainer/>
        <StaticComp7/>
        <NearbyProjects/>
        
 
        <Pricing/>
        <MyMap />
+
 
 
       </div>

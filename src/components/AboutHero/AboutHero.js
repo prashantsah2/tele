@@ -19,7 +19,7 @@ const AboutHero = () => {
           {/* Image 1 */}
           <div className="w-full aspect-[4/3] bg-gray-200 rounded-md overflow-hidden">
             <img
-              src="/image/25.png"
+              src="/image/45.jpg"
               alt="Tile Detail"
               className="w-full h-full object-cover"
             />
