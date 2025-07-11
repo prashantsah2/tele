@@ -122,7 +122,7 @@ const perfumeData = {
     "We take pride in crafting exceptional perfumes that evoke emotion",
   subheading:
     "At the heart of every fragrance lies our promise of premium ingredients, careful formulation, and creative expression. Every bottle is a story, every note a feeling.",
-  imageSrc: "/image/25.png", // Replace with the actual image path
+  imageSrc: "/image/garden-1680802_1920.jpg", // Replace with the actual image path
   features: [
     {
       icon: <FaBolt />,

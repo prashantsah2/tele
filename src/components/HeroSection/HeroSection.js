@@ -27,7 +27,7 @@ export default function HeroSection() {
     <p className="font-lora text-[21px] text-[#444] text-left leading-6 text-sm">Experience the ultimate luxury <br/> and comfort in our green farmhouse.</p>
 
     </div>
-    <Image src={'/image/45.jpg'} width={500} height={500} alt="hero image" className=" object-cover top-0 left-0 h-full w-full mr-12 rounded-lg max-lg:mr-1 max-lg:ml-1 max-lg:w-[95%] " />
+    <Image src={'/image/45.jpg'} width={500} height={500} alt="hero image" className=" object-cover top-0 left-0 h-full w-full mr-12 rounded-lg max-lg:mr-1 max-lg:ml-1 max-lg:w-[95%] mb-2" />
 
 </div>
 

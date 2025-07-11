@@ -19,7 +19,7 @@ const AboutHero = () => {
           {/* Image 1 */}
           <div className="w-full aspect-[4/3] bg-gray-200 rounded-md overflow-hidden">
             <img
-              src="/image/45.jpg"
+              src="/image/garden-1680802_1920.jpg"
               alt="Tile Detail"
               className="w-full h-full object-cover"
             />
@@ -28,14 +28,14 @@ const AboutHero = () => {
           {/* Image 2 */}
           <div className="w-full aspect-[4/3] bg-gray-200 rounded-md overflow-hidden md:col-span-1">
             <img
-              src="/image/25.png"
+              src="/image/d0efa19e-7910-436d-bc60-2fa28faccfad.jpeg"
               alt="Fittings"
               className="w-full h-full object-cover"
             />
           </div>
             <div className="w-full aspect-[4/3] bg-gray-200 rounded-md overflow-hidden md:col-span-1">
             <img
-              src="/image/25.png"
+              src="/image/old-2683865_1920.jpg"
               alt="Fittings"
               className="w-full h-full object-cover"
             />

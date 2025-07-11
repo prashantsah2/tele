@@ -4,7 +4,7 @@ const MissionSection = () => {
     heading: "We help people create and build wealth.",
     description:
       "We have marked our presence globally reaching over a million of website owners using our products.",
-    imageSrc: "/image/25.png", // Replace this with your own image path
+    imageSrc: "/image/de83a092-b1b5-4367-9794-6e3e71e32239.jpeg", // Replace this with your own image path
     items: [
       {
         number: "01",
