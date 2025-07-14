@@ -89,17 +89,6 @@ useEffect(() => {
         };
     }, []);
 
-    useEffect(() => {
-        const handleScroll = () => {
-            setIsTop(window.scrollY === 0);
-        };
-
-        window.addEventListener('scroll', handleScroll);
-
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
 
     const router = useRouter()
 

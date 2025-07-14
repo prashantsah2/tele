@@ -46,15 +46,15 @@ return(
 {data.maintitle}
 </div>
 
-<div className='flex flex-row justify-center items-center gap-6 max-lg:flex-wrap'>
+<div className='flex flex-row justify-center items-center gap-6 max-lg:flex-wrap '>
     {data.list.map((item,index)=>{
 
         return(
-            <div className='flex flex-col justify-center items-center p-4' key={index}>
+            <div className='flex flex-col justify-center items-center p-4 max-lg:w-[31%]' key={index}>
                 <div className='flex justify-center items-center w-[245px] rounded-full h-[245px] border-4 border-[#e8ff3b] overflow-hidden max-lg2:w-[175px] max-lg2:h-[175px] max-lg:w-[135px] max-lg:h-[135px] max-sm:w-[95px] max-sm:h-[95px]'>
                     <Image src={item.image} width={200} height={200} alt="image" className='w-full h-full object-cover rounded-full' />
                 </div>
-                <p className='font-outfit text-[#fff] text-sm mt-2 max-w-[145px] max-sm:max-w-[125px] text-center'>{item.title}</p>
+                <p className='font-outfit text-[#fff] text-sm mt-2 max-w-[145px] max-sm:max-w-[125px] max-sm:text-sm text-center'>{item.title}</p>
             </div>
         )
     })}
