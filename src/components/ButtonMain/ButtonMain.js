@@ -35,7 +35,7 @@ export default function ButtonMain2(){
 
         <div className="bg-[#F8F3EB] rounded-full flex flex-row justify-center items-center px-3 py-2 cursor-pointer" onClick={handleNavigate}>
             <div className="mr-2">
-                <Image src="/image/flower.png" width={21} height={21} alt="Flower" style={{backgroundColor:'#fff'}} />
+              {/*   <Image src="/image/flower.png" width={21} height={21} alt="Flower" style={{backgroundColor:'#fff'}} /> */}
                 
             </div>
             <div>

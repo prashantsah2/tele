@@ -10,7 +10,7 @@ export default function Footer() {
    const router = useRouter()
 
   return (
-    <div className="w-full flex flex-col justify-center items-center bg-[#0b3735]">
+    <div className="w-full flex flex-col justify-center items-center bg-[#0b3735] max-]">
       <div className="w-full flex flex-row justify-center items-center">
         <div className="bg-[#1e1e1edd] w-[50%] h-1"></div>
         <div className="bg-[#1e1e1edd] w-[50%] h-1"></div>
@@ -71,8 +71,8 @@ export default function Footer() {
       <div className="flex flex-col justify-start align-center pr-11 min-w-[331px] max-lg:w-full max-lg:mt-8 max-lg:pl-6">
         <div className="flex flex-col justify-start align-center">
            <p className="font-outfit text-2xl text-[#fff] mb-1">Email us at</p>
-           <p className="font-outfit text-sm text-[#fff]">support@rainnee@gmail.com</p>
-           <Image src={`/image/goldestates-logo.png`} width={221} height={51} className="mt-5"  />
+           <p className="font-outfit text-sm text-[#fff]">info@goldestates.in</p>
+           <Image src={`/image/goldestates-logo.png`} onClick={() => {router.push('https://goldestates.in/')}} width={221} height={51} className="mt-5"  />
         </div>
 
         <div className="flex flex-col justify-start align-center mt-6 w-full">

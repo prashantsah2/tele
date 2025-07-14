@@ -3,7 +3,7 @@ export default function Pricing() {
     <div className="flex flex-col items-center px-6 py-10 mx-auto w-full bg-[#1f441e] text-white font-outfit">
       {/* Header */}
       <div className="text-center mb-10">
-        <h1 className="text-3xl font-semibold text-yellow-400">LUXURY GREEN FARMHOUSE</h1>
+        <h1 className="text-3xl font-semibold text-yellow-400">GREEN FARMHOUSE</h1>
         <p className="mt-2 text-sm text-[#f4e7a1]">Dariyabad-Safdarganj Rd Aulia Lalpur, Uttar Pradesh 225206</p>
         <h2 className="mt-6 text-2xl font-bold text-yellow-300">PRICE LIST</h2>
       </div>

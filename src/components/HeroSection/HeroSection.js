@@ -20,10 +20,10 @@ export default function HeroSection() {
 
     return (
 
-<div className="w-full flex flex-row justify-center items-center bg-[#e3bb09] pt-12 mb-12 max-lg:flex-col max-sm:pb-2 max-sm:pl-1" /* style={{ backgroundImage: 'url(/image/hotel.webp)',backgroundRepeat:'repeat', backgroundSize: 'contain',backgroundSize: '200px 200px', backgroundPosition: 'center' }} */>
+<div className="w-full flex flex-row justify-center items-center bg-[#e3bb09] min-h-[100vh] pt-12 mb-12 max-lg:flex-col max-sm:pb-2 max-sm:pl-1" /* style={{ backgroundImage: 'url(/image/hotel.webp)',backgroundRepeat:'repeat', backgroundSize: 'contain',backgroundSize: '200px 200px', backgroundPosition: 'center' }} */>
 
     <div
-    className="w-full flex flex-col justify-center items-start min-h-[95vh] max-w-[1441px] px-12 z-40 max-lg:min-h-[531px] max-sm:min-h-[441px] max-sm:px-2 overflow-hidden"
+    className="w-full flex flex-col justify-center items-start min-h-[100vh] max-w-[1441px] px-12 z-40 max-lg:min-h-[531px] max-sm:min-h-[441px] max-sm:px-2 overflow-hidden"
     >
     <p className="font-lora text-[75px] text-[#fff] text-left leading-[75px] max-sm:text-[41px] max-sm:leading-[41px]">GREEN <br/> FARMHOUSE</p>
     <p className="font-lora text-[21px] text-[#fff] text-left leading-6 text-sm">Experience the ultimate luxury <br/> and comfort in our green farmhouse.</p>
