@@ -12,27 +12,13 @@ export const metadata = {
     'Farmhouse investment opportunities',
     'Agricultural land for sale India'
   ],
-  openGraph: {
-    title: 'Buy Farmhouse in India | Luxury Plots & Farm Properties for Sale',
-    description:
-      'Premium farmhouse land and verified plots available near major Indian cities. View listings with legal help & pricing transparency.',
-    url: 'https://yourdomain.com',
-    type: 'website',
-    images: [
-      {
-        url: 'https://yourdomain.com/images/hero-home.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Luxury Farmhouse Property India',
-      },
-    ],
-  },
+ 
   twitter: {
     card: 'summary_large_image',
     title: 'Farmhouse for Sale in India',
     description:
       'Find verified farmhouse properties near Delhi, Gurgaon, Mumbai & Bangalore. Transparent deals. Legal + site visit help.',
-    images: ['https://yourdomain.com/images/hero-home.jpg'],
+   
   },
 };
 
