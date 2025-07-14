@@ -20,19 +20,19 @@ export default function StaticComp7() {
      list :[
         {
            title:'Family Bonding', 
-           image:'/image/21.png',
+           image:'/image/91.png',
         }
         ,{
-           title:'Friends & Social Gatherings', 
-           image:'/image/22.png',
+           title:'Child Friendly Environment', 
+           image:'/image/52.jpeg',
+        }
+        ,{
+           title:'Friends and Social Gatherings', 
+           image:'/image/16.png',
         }
         ,{
            title:'Wellness and Relaxation', 
-           image:'/image/23.png',
-        }
-        ,{
-           title:'Child-Friendly Environment', 
-           image:'/image/24.png',
+           image:'/image/17.png',
         }
      ]
 

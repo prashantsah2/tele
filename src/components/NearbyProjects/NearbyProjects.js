@@ -22,7 +22,7 @@ export default function NearbyProjects() {
         description2: " These projects aim to improve traffic flow and accessibility, especially for pilgrims visiting the Ram Temple.",
         description3: " ₹800 crore for the Naya Ghat to Sahadatganj road, and ₹250 crore for the 158 roads.",
         description4: "Completion Timeline: The Naya Ghat to Sahadatganj road is expected to be completed by December 2024.",
-        image: "/image/road.jpg"
+        image: "/image/75.jpg"
       },
       {
         title: "Maharshi Valmiki International Airport, Ayodhya",
@@ -30,7 +30,7 @@ export default function NearbyProjects() {
         description2: " ₹1,000 crore for the airport's construction and development.",
         description3: " Equipped with a 3,200-meter runway, a terminal building, and modern amenities.",
         description4: " The airport is expected to handle 1.5 million passengers annually by 2025.",
-        image: "/image/ring.jpg"
+        image: "/image/76.avif"
       },
       {
         title: "84-Kosi Parikrama Marg",
@@ -38,7 +38,7 @@ export default function NearbyProjects() {
         description2: "  The road will have a 100-meter-wide corridor, with a 60-meter-wide carriageway and a 20-meter-wide green belt.",
         description3: "  It will significantly enhance connectivity for pilgrims and tourists visiting the Ram Temple.",
         description4: " The project is expected to be completed by 2025, with ongoing land acquisition and construction.",
-        image: "/image/ring.jpg"
+        image: "/image/77.jpg"
       }
 
 
@@ -63,7 +63,7 @@ return(
 
     return(
     <div key={index} className="flex flex-row justify-center items-start w-full mb-8 p-4 rounded-lg max-lg:flex-col max-md:px-0">
-      <Image src={item.image} alt={item.title} width={500} height={400} className="w-full aspect-[2] object-cover rounded-lg mb-4" />
+      <Image src={item.image} alt={item.title} width={500} height={400}  className="w-full max-w-[611px] aspect-[2] object-cover rounded-lg mb-4" />
       <div className="flex flex-col justify-start items-start w-full pl-4 max-md:pl-0">
          <h3 className="text-xl font-medium mb-2 font-outfit text-[#fff] w-full">{item.title}</h3>
       <p className="text-sm font-outfit">{item.description}</p>

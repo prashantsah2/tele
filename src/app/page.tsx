@@ -18,7 +18,7 @@ export const metadata = {
     title: 'Farmhouse for Sale in India',
     description:
       'Find verified farmhouse properties near Delhi, Gurgaon, Mumbai & Bangalore. Transparent deals. Legal + site visit help.',
-   
+  
   },
 };
 
@@ -56,15 +56,15 @@ export default function Campaign() {
         title: "Why Choose our farmhouse",
         titledesc : ``,
        innerdata : [
-    {        image: `/image/12.png`,
-        title: "Fast Service",
+    {        image: `/image/97.png`,
+        title: "Outdoor Dining",
     description: "We provide fast and reliable service to ensure your goods are delivered on time."},
     
-    {        image: `/image/13.png`, 
-        title: "Quality Assurance",
+    {        image: `/image/92.jpeg`, 
+        title: "Orchard",
     description: "Our team ensures that all goods are handled with the utmost care and quality."},
-    {        image: `/image/14.png`, 
-        title: "Customer Support",
+    {        image: `/image/93.avif`, 
+        title: "Swimming Pool",
     description: "We offer 24/7 customer support to assist you with any inquiries or issues."
     },
     ]

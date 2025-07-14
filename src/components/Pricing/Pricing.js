@@ -24,13 +24,13 @@ export default function Pricing() {
             590 /per sq. ft
           </div>
 
-          <div className="p-4">
+         {/*  <div className="p-4">
             <p className="font-bold">Premium</p>
             <p>10,000 sq. ft (2BHK) Premium, Fully Furnished, Pool, 2 Orchards</p>
-          </div>
-          <div className="p-4 flex items-center justify-center text-lg text-yellow-300">
+          </div> */}
+         {/*  <div className="p-4 flex items-center justify-center text-lg text-yellow-300">
             640 /per sq. ft
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -41,7 +41,7 @@ export default function Pricing() {
 
       {/* Payment Schedule */}
       <div className="w-full mt-10 bg-[#295229] border-2 border-yellow-400 rounded-xl p-6 text-sm">
-        <h3 className="text-yellow-300 font-semibold mb-4">Payment Schedule :</h3>
+        <h3 className="text-yellow-300 text-xl w-full flex justify-center items-center font-semibold mb-4">Payment Schedule </h3>
         <ul className="space-y-1 text-white">
           <li>Booking ............................................................ : 10%</li>
           <li>Within 30 Days ............................................... : 15%</li>
@@ -65,10 +65,10 @@ export default function Pricing() {
       {/* Footer Badges */}
       <div className="flex justify-between w-full mt-6 px-6 max-sm:flex-col max-sm:gap-3">
         <div className="flex items-center gap-2 text-yellow-300">
-          <span className="text-xs font-bold">VERIFIED & LISTED</span>
+          <span className="text-xs font-bold">VERIFIED BY</span>
           <div className="bg-[#d4af37] text-black px-3 py-1 text-xs rounded">GOLDESTATES</div>
         </div>
-        <div className="text-orange-400 font-semibold text-xs">POWERED BY GOLDESTATES DEVELOPERS</div>
+        <div className="text-orange-400 font-semibold text-xs">POWERED BY CLAN Business</div>
       </div>
     </div>
   );

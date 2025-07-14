@@ -16,15 +16,15 @@ export default function KeyFeatures(){
  let data ={    titletop: "Key Features",
     title: "What makes us special",
 
-list :[{title:'Organic Farming Zone', image:'/image/18.png'},
-{title:'Lush Green Lawn', image:'/image/19.png'},
-{title:'24/7 Security', image:'/image/20.png'},
-{title:'Modern kitchen', image:'/image/21.png'},
-{title:'Gated Access', image:'/image/22.png'},
-{title:'Children’s Play Zone', image:'/image/23.png'},
-{title:'KEYFEATURES & AMENITIES', image:'/image/24.png'},
+list :[{title:'Lush Green Lawn', image:'/image/18.png'},
+{title:'Children’s Play Zone', image:'/image/19.png'},
+{title:'Modern Kitchen', image:'/image/20.png'},
+{title:'Outdoor Lighting', image:'/image/21.png'},
+{title:'Organic Farming Zone', image:'/image/22.png'},
+{title:'Gated Access', image:'/image/23.png'},
+{title:'24/7 Security', image:'/image/24.png'},
 {title:'Private Swimming Pool', image:'/image/25.png'},
-{title:'Outdoor Lighting', image:'/image/17.png'}
+{title:'Wellness & Relaxation', image:'/image/17.png'}
 ]}
 
 

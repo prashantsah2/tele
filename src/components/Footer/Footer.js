@@ -10,7 +10,7 @@ export default function Footer() {
    const router = useRouter()
 
   return (
-    <div className="w-full flex flex-col justify-center items-center bg-[burlywood]">
+    <div className="w-full flex flex-col justify-center items-center bg-[#0b3735]">
       <div className="w-full flex flex-row justify-center items-center">
         <div className="bg-[#1e1e1edd] w-[50%] h-1"></div>
         <div className="bg-[#1e1e1edd] w-[50%] h-1"></div>
@@ -44,22 +44,22 @@ export default function Footer() {
         </div> */}
         <div className="flex flex-row justify-start items-start mt-11 max-sm:flex-col max-sm:items-start max-sm:w-full">
           <div className="flex flex-col justify-start align-start px-6 w-[191px]">
-             <p className="font-outfit text-[#222] text-xl mb-2">Company</p>
-             <p className="font-outfit text-md mb-1 cursor-pointer" onClick={() => {router.push('privacy-policy')}}>Privacy Policy</p>    
-             <p className="font-outfit text-md mb-1 cursor-pointer" onClick={() => {router.push('terms-and-conditions')}}> Terms and Conditions</p>
-             <p className="font-outfit text-md mb-1 cursor-pointer" onClick={() => {router.push('pricing-policy')}}> Pricing Policy </p>
+             <p className="font-outfit text-[#fff] text-xl mb-2">Company</p>
+             <p className="font-outfit text-[#fff] text-md mb-1 cursor-pointer" onClick={() => {router.push('privacy-policy')}}>Privacy Policy</p>    
+             <p className="font-outfit text-[#fff] text-md mb-1 cursor-pointer" onClick={() => {router.push('terms-and-conditions')}}> Terms and Conditions</p>
+             <p className="font-outfit text-[#fff] text-md mb-1 cursor-pointer" onClick={() => {router.push('pricing-policy')}}> Pricing Policy </p>
           </div>
           <div className="flex flex-col justify-start align-start px-6 w-[191px] max-sm:mt-8">
-             <p className="font-outfit text-[#222] text-xl mb-2">Report a bug</p>
-             <p className="font-outfit text-md mb-1">Report a bug</p>    
-             <p className="font-outfit text-md mb-1">Report a failed order</p>
-             <p className="font-outfit text-md mb-1">Other issues </p>
+             <p className="font-outfit text-[#fff] text-xl mb-2">Report a bug</p>
+             <p className="font-outfit text-[#fff] text-md mb-1">Report a bug</p>    
+             <p className="font-outfit text-[#fff] text-md mb-1">Report a failed order</p>
+             <p className="font-outfit text-[#fff] text-md mb-1">Other issues </p>
           </div>
           <div className="flex flex-col justify-start align-start px-6 w-[191px] max-sm:mt-8">
-             <p className="font-outfit text-[#222] text-xl mb-2">About us</p>
-             <p className="font-outfit text-md mb-1">Our Vision</p>    
-             <p className="font-outfit text-md mb-1">Collaborate with us</p>
-             <p className="font-outfit text-md mb-1">Legal</p>
+             <p className="font-outfit text-[#fff] text-xl mb-2">About us</p>
+             <p className="font-outfit text-[#fff] text-md mb-1">Our Vision</p>    
+             <p className="font-outfit text-[#fff] text-md mb-1">Collaborate with us</p>
+             <p className="font-outfit text-[#fff] text-md mb-1">Legal</p>
           </div>
         </div>
          
