@@ -49,12 +49,12 @@ export default function Footer() {
              <p className="font-outfit text-[#fff] text-md mb-1 cursor-pointer" onClick={() => {router.push('terms-and-conditions')}}> Terms and Conditions</p>
              <p className="font-outfit text-[#fff] text-md mb-1 cursor-pointer" onClick={() => {router.push('pricing-policy')}}> Pricing Policy </p>
           </div>
-          <div className="flex flex-col justify-start align-start px-6 w-[191px] max-sm:mt-8">
+         {/*  <div className="flex flex-col justify-start align-start px-6 w-[191px] max-sm:mt-8">
              <p className="font-outfit text-[#fff] text-xl mb-2">Report a bug</p>
              <p className="font-outfit text-[#fff] text-md mb-1">Report a bug</p>    
              <p className="font-outfit text-[#fff] text-md mb-1">Report a failed order</p>
              <p className="font-outfit text-[#fff] text-md mb-1">Other issues </p>
-          </div>
+          </div> */}
           <div className="flex flex-col justify-start align-start px-6 w-[191px] max-sm:mt-8">
              <p className="font-outfit text-[#fff] text-xl mb-2">About us</p>
              <p className="font-outfit text-[#fff] text-md mb-1">Our Vision</p>    
@@ -70,8 +70,8 @@ export default function Footer() {
 
       <div className="flex flex-col justify-start align-center pr-11 min-w-[331px] max-lg:w-full max-lg:mt-8 max-lg:pl-6">
         <div className="flex flex-col justify-start align-center">
-           <p className="font-outfit text-2xl text-[#222] mb-1">Email us at</p>
-           <p className="font-outfit text-sm">support@rainnee@gmail.com</p>
+           <p className="font-outfit text-2xl text-[#fff] mb-1">Email us at</p>
+           <p className="font-outfit text-sm text-[#fff]">support@rainnee@gmail.com</p>
            <Image src={`/image/goldestates-logo.png`} width={221} height={51} className="mt-5"  />
         </div>
 

@@ -1,4 +1,4 @@
-export const metadata = {
+export const metahome = {
   title: 'Buy Farmhouse in India | Luxury Farmhouse Plots Near Delhi, Mumbai, Bangalore',
   description:
     'Browse verified farmhouse listings and premium land for sale across India. Explore luxury plots and weekend homes near Delhi NCR, Mumbai, Gurgaon, Bangalore, and more. Transparent pricing, legal support, and free site visits.',
