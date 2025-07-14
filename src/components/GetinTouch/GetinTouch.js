@@ -14,7 +14,7 @@ export default function GetinTouch() {
         <div className="w-[33%] border-[1px] flex-1 rounded-lg min-h-[151px] mx-4 px-4 py-4">
           <p className="font-outfit text-md">Call us at</p>
           <p className="font-outfit text-md bg-[#d9e2fd] text-[#434242] py-1 px-3 rounded-full mt-2">{`+91 123456789`}</p>
-          <p className="font-outfit text-md bg-[#d9e2fd] text-[#434242] py-1 px-3 rounded-full mt-2">{`+91 7489771868`}</p>
+          <p className="font-outfit text-md bg-[#d9e2fd] text-[#434242] py-1 px-3 rounded-full mt-2">{`+91 9818793773`}</p>
         </div>
         <div className="w-[33%] border-[1px] flex-1 rounded-lg min-h-[151px] px-4 py-4">
           <p className="font-outfit text-md">Reach us Out</p>

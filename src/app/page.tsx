@@ -16,6 +16,7 @@ import MyMap from "@/components/MapLocation/MapLocation";
 import KeyFeatures from "@/components/KeyFeatures/KeyFeatures";
 import NearbyProjects from "@/components/NearbyProjects/NearbyProjects";
 import LayoutContainer from "@/components/LayoutContainer/LayoutContainer";
+import QueryForm from "@/components/QueryForm/Query"
 
 
 export default function Campaign() {
@@ -64,6 +65,8 @@ export default function Campaign() {
        
 
        <Pricing/>
+       <QueryForm/>
+       
        <MyMap />
 
 
