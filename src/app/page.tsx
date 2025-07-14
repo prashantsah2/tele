@@ -1,3 +1,46 @@
+export const metadata = {
+  title: 'Buy Farmhouse in India | Luxury Farmhouse Plots Near Delhi, Mumbai, Bangalore',
+  description:
+    'Browse verified farmhouse listings and premium land for sale across India. Explore luxury plots and weekend homes near Delhi NCR, Mumbai, Gurgaon, Bangalore, and more. Transparent pricing, legal support, and free site visits.',
+  keywords: [
+    'Farmhouse for sale India',
+    'Luxury farmhouse plots Delhi NCR',
+    'Buy farmhouse land Mumbai',
+    'Second home near Bangalore',
+    'Verified farm properties India',
+    'Affordable weekend farmhouse',
+    'Farmhouse investment opportunities',
+    'Agricultural land for sale India'
+  ],
+  openGraph: {
+    title: 'Buy Farmhouse in India | Luxury Plots & Farm Properties for Sale',
+    description:
+      'Premium farmhouse land and verified plots available near major Indian cities. View listings with legal help & pricing transparency.',
+    url: 'https://yourdomain.com',
+    type: 'website',
+    images: [
+      {
+        url: 'https://yourdomain.com/images/hero-home.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Luxury Farmhouse Property India',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Farmhouse for Sale in India',
+    description:
+      'Find verified farmhouse properties near Delhi, Gurgaon, Mumbai & Bangalore. Transparent deals. Legal + site visit help.',
+    images: ['https://yourdomain.com/images/hero-home.jpg'],
+  },
+};
+
+
+
+
+
+
 
 import OurProjects from "@/components/OurProjects/OurProjects";
 import Header from '@/components/Header/Header'
@@ -17,6 +60,7 @@ import KeyFeatures from "@/components/KeyFeatures/KeyFeatures";
 import NearbyProjects from "@/components/NearbyProjects/NearbyProjects";
 import LayoutContainer from "@/components/LayoutContainer/LayoutContainer";
 import QueryForm from "@/components/QueryForm/Query"
+
 
 
 export default function Campaign() {
