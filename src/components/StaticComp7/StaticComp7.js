@@ -46,7 +46,7 @@ return(
 {data.maintitle}
 </div>
 
-<div className='flex flex-row justify-center items-center gap-6 max-lg:flex-wrap '>
+<div className='flex flex-row justify-center items-start gap-6 max-lg:flex-wrap '>
     {data.list.map((item,index)=>{
 
         return(
