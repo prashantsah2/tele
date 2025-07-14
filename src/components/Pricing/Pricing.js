@@ -21,7 +21,7 @@ export default function Pricing() {
             <p>10,000 sq. ft (1BHK) Premium, Fully Furnished, Pool, 2 Orchards</p>
           </div>
           <div className="p-4 flex items-center justify-center text-lg text-yellow-300">
-            590 /per sq. ft
+            645 /per sq. ft
           </div>
 
          {/*  <div className="p-4">
