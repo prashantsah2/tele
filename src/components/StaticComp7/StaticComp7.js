@@ -41,8 +41,8 @@ export default function StaticComp7() {
 
 return(
 
-<div className='flex flex-col min-h-[75vh] bg-[#2c6f18] text-[#333] w-full justify-center items-center'>
-<div className='flex justify-center items-center p-4 font-outfit text-[41px] text-[#fff] pt-12 pl-10 pb-6 max-md:text-[31px] max-md:leading-[35px] max-sm:text-[21px] max-sm:leading-[24px] max-sm:pt-4'>
+<div className='flex flex-col min-h-[341px] bg-[#2c6f18] text-[#333] w-full justify-center items-center'>
+<div className='flex justify-center items-center p-4 font-outfit text-[41px] text-[#fff] pt-12 pl-10 pb-6 max-md:text-[31px] max-md:leading-[35px] max-sm:text-[21px] max-sm:leading-[24px] max-sm:pt-4 max-md:p-0'>
 {data.maintitle}
 </div>
 
