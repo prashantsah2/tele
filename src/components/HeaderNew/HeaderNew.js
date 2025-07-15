@@ -11,7 +11,7 @@ export default function HeaderNew(){
 
 
     const[isTop,setIsTop]=useState(true)
-    const [isMobile, setIsMobile] = useState(window.innerWidth < 76);
+    const [isMobile, setIsMobile] = useState(false);
  const [navOpen,setNavOpen]=useState(false)
 
      const navOptionsMobile = [
