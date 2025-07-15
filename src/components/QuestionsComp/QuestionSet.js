@@ -25,6 +25,11 @@ export default function QuestionsSet() {
             <li>Road access & fencing</li>
             <li>Landscaping and plantation</li>
             <li>Optional swimming pool, gazebo, or farmhouse villa construction</li>
+            <li> Private Swimming Pool</li>
+            <li>1bedroom + 1 Kitchen + 1Toilet</li>
+            <li>2 Orchards</li>
+            <li>Lush Green Lawn</li>
+            <li>Children’s Play Zone</li>
           </ul>
         </p>
       ),
