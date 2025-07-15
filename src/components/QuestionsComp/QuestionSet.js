@@ -1,55 +1,74 @@
 "use client";
+import { title } from "process";
 import React from "react";
 import { useState } from "react";
 
 export default function QuestionsSet() {
+
+
+  
   const questions = [
     {
-      title: "What is React?",
+      title: "Are these farmhouses suitable for weekend getaways or permanent living?",
       answer: (
-        <p>React is a JavaScript library for building user interfaces.</p>
+        <p>Yes, they’re perfect for both. Whether you're looking for a weekend escape, a holiday home, or a nature-rich permanent residence, our farmhouses are fully equipped to meet your needs .</p>
       ),
     },
     {
-      title: "What is Tailwind CSS?",
+      title: `What amenities do you offer?`,
       answer: (
         <p>
-          Tailwind CSS is a utility-first CSS framework for rapidly building
-          custom designs.
+          Our farmhouses come with modern amenities like:
+          <ul>
+            <li>Private gated access</li>
+            <li>Water and electricity connections</li>
+            <li>Road access & fencing</li>
+            <li>Landscaping and plantation</li>
+            <li>Optional swimming pool, gazebo, or farmhouse villa construction</li>
+          </ul>
         </p>
       ),
     },
     {
-      title: "What is Next.js?",
+      title: `Is the land legally verified?`,
       answer: (
-        <div>
+        <div className="flex flex-row text-md font-outfit">
           <p>
-            Next.js is a React framework for building server-side rendered and
-            static web applications.
-          </p>
-          <p>
-            Next.js is a React framework for building server-side rendered and
-            static web applications.
-          </p>
-          <p>
-            Next.js is a React framework for building server-side rendered and
-            static web applications.
-          </p>
-          <p>
-            Next.js is a React framework for building server-side rendered and
-            static web applications.
-          </p>
-          <p>
-            Next.js is a React framework for building server-side rendered and
-            static web applications.
-          </p>
-          <p>
-            Next.js is a React framework for building server-side rendered and
-            static web applications.
+            Yes. All properties are 100% verified with proper land titles, ownership documents, and legal clearances to ensure a secure purchase.
           </p>
         </div>
       ),
     },
+
+    {
+      title: `Can I build my own farmhouse villa on the land?`,
+      answer: (
+        <div className="flex flex-row text-md font-outfit">
+          <p>
+            Definitely. You can custom-build your dream villa or we can help you with turnkey construction as per your preferences.
+          </p>
+        </div>
+      ),
+    },{
+      title: `How can I visit the farmhouse site?`,
+      answer: (
+        <div className="flex flex-row text-md font-outfit">
+          <p>
+            You can book a free site visit with us. Our team will arrange a guided tour and provide you with all necessary details.
+          </p>
+        </div>
+      ),
+    },
+    {
+      title: `How do I book or reserve a plot/farmhouse?`,
+      answer: (
+        <div className="flex flex-row text-md font-outfit">
+          <p>
+            Booking is simple. Just contact us via the website or call us directly. We’ll guide you through the documentation, site visit, and token/booking process.
+          </p>
+        </div>
+      ),
+    }
   ];
   const [openIndex, setOpenIndex] = useState(null);
 

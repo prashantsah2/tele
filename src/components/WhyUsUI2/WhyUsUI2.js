@@ -17,7 +17,7 @@ const WhyUsUI2 = ({ heading, description, imageSrc, features }) => {
           />
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-5xl mx-auto">
+       {/*  <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-5xl mx-auto">
           {features.map((feature, index) => (
             <div
               key={index}
@@ -29,7 +29,7 @@ const WhyUsUI2 = ({ heading, description, imageSrc, features }) => {
               </p>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );

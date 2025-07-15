@@ -8,7 +8,7 @@ export default function GetinTouch() {
           
           <p className="font-outfit text-md" >Email us at</p>
           <p className="font-outfit text-md bg-[#d9e2fd] text-[#434242] py-1 px-3 rounded-full mt-2">{`info@goldestates.in`}</p>
-          <p className="font-outfit text-md bg-[#d9e2fd] text-[#434242] py-1 px-3 rounded-full mt-2">{`support@goldestate.in`}</p>
+{/*           <p className="font-outfit text-md bg-[#d9e2fd] text-[#434242] py-1 px-3 rounded-full mt-2">{`support@goldestate.in`}</p> */}
 
         </div>
         <div className="w-[33%] border-[1px] flex-1 rounded-lg min-h-[151px] mx-4 px-4 py-4">
