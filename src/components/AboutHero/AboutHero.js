@@ -9,9 +9,9 @@ const AboutHero = () => {
 
         {/* Top captions */}
         <div className="flex flex-wrap justify-between text-xs sm:text-sm text-gray-600 mb-12">
-          <span>Protecting water ensures future</span>
+         {/*  <span>Protecting water ensures future</span>
           <span>Water sustains life, ecosystems</span>
-          <span>Water symbolizes purity, renewal</span>
+          <span>Water symbolizes purity, renewal</span> */}
         </div>
 
         {/* Image Grid */}
@@ -28,7 +28,7 @@ const AboutHero = () => {
           {/* Image 2 */}
           <div className="w-full aspect-[4/3] bg-gray-200 rounded-md overflow-hidden md:col-span-1">
             <img
-              src="/image/d0efa19e-7910-436d-bc60-2fa28faccfad.jpeg"
+              src="/image/45.png"
               alt="Fittings"
               className="w-full h-full object-cover"
             />

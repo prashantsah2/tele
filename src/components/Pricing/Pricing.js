@@ -21,7 +21,7 @@ export default function Pricing() {
             <p>10,000 sq. ft (1BHK) Premium, Fully Furnished, Pool, 2 Orchards</p>
           </div>
           <div className="p-4 flex items-center justify-center text-lg text-yellow-300">
-            645 /per sq. ft
+            650 /per sq. ft
           </div>
 
          {/*  <div className="p-4">
@@ -63,13 +63,13 @@ export default function Pricing() {
       </p>
 
       {/* Footer Badges */}
-      <div className="flex justify-between w-full mt-6 px-6 max-sm:flex-col max-sm:gap-3">
+     {/*  <div className="flex justify-between w-full mt-6 px-6 max-sm:flex-col max-sm:gap-3">
         <div className="flex items-center gap-2 text-yellow-300">
           <span className="text-xs font-bold">VERIFIED BY</span>
           <div className="bg-[#d4af37] text-black px-3 py-1 text-xs rounded">GOLDESTATES</div>
         </div>
         <div className="text-orange-400 font-semibold text-xs">POWERED BY CLAN Business</div>
-      </div>
+      </div> */}
     </div>
   );
 }

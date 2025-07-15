@@ -133,29 +133,30 @@ useEffect(() => {
 
            {!isMobile?<> <div className="flex flex-row space-x-6 relative">
                 
-             <div className="w-[71px] h-8 bg-[#d4d4f9] absolute left-2 z-0 rounded-full bottom-[-5px] max-md:hidden"></div>   
+             <div className="w-[71px] h-8  absolute left-2 z-0 rounded-full bottom-[-5px] max-md:hidden"></div>   
             <p className="cursor-pointer font-outfit z-10 text-[#fff]" onClick={()=>{handleNavigate('/')}}>Home</p>
             <p className="cursor-pointer font-outfit z-10 text-[#fff]" onClick={()=>{handleNavigate('/whyus')}}>Why us</p>
             <p className="cursor-pointer font-outfit z-10 text-[#fff]" onClick={()=>{handleNavigate('/aboutus')}}>About us</p>
             </div></>:<></>}
             <div>
-            <Image 
+           {/*  <Image 
 
 
-                src="/image/goldestates-logo.png" 
+                src="/image/logo.png" 
                 alt="Rainnee Logo" 
                 width={198} 
                 height={50} 
                 className="obje ct-contain cursor-pointer max-sm:w-[131px]"
                 style={{marginRight:'auto',marginLeft:isMobile?0:-41,}}
-            />
-            
+            /> */}
+           <a href="/" className="outline-none text-decoration-none hover:none"> <p className="text-lg font-lora text-[#fff] font-semibold">GREEN FARM HOUSE</p></a>
+
             </div>
             <div>
              <ButtonMain2/>
             </div>
             {isMobile &&<>
-                        <svg  width="34" height="33" style={{marginLeft:-41}}  onClick={toggleNav}  viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg  width="34" height="33" style={{marginLeft:1}}  onClick={toggleNav}  viewBox="0 0 34 33" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M16.9474 31.5434C25.2527 31.5434 31.9854 24.8106 31.9854 16.5054C31.9854 8.20014 25.2527 1.46741 16.9474 1.46741C8.64219 1.46741 1.90945 8.20014 1.90945 16.5054C1.90945 24.8106 8.64219 31.5434 16.9474 31.5434Z" stroke="#fff" stroke-width="2.31353" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M11.1636 10.7216H22.7312" stroke="#fff" stroke-width="2.31353" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M11.1636 16.5054H22.7312" stroke="#fff" stroke-width="2.31353" stroke-linecap="round" stroke-linejoin="round"/>

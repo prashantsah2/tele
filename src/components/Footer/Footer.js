@@ -16,7 +16,7 @@ export default function Footer() {
         <div className="bg-[#1e1e1edd] w-[50%] h-1"></div>
       </div>
 
-      <div className="min-h-[441px] w-full flex flex-row justify-center items-center max-lg:flex-col ">
+      <div className="min-h-[402px] w-full flex flex-row justify-center items-center max-lg:flex-col ">
 
 
 
@@ -72,7 +72,13 @@ export default function Footer() {
         <div className="flex flex-col justify-start align-center">
            <p className="font-outfit text-2xl text-[#fff] mb-1">Email us at</p>
            <p className="font-outfit text-sm text-[#fff]">info@goldestates.in</p>
-           <Image src={`/image/goldestates-logo.png`} onClick={() => {router.push('https://goldestates.in/')}} width={221} height={51} className="mt-5"  />
+          
+
+          <div className="flex flex-col justify-start align-center mt-4">
+             <p className="text-lg font-lora text-[#fff] font-semibold mb-2 cursor-pointer" >GREEN FARM HOUSE</p>
+            <p className="font-outfit text-md text-[#fff]">Preseted by</p>
+             <Image src={`/image/goldestates-logo.png`} onClick={() => {router.push('https://goldestates.in/')}} width={221} height={51} className="mt-5"  />
+          </div>
         </div>
 
         <div className="flex flex-col justify-start align-center mt-6 w-full">
