@@ -1,14 +1,10 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Roboto } from "next/font/google";
+
 import { Layout } from "@/components";
 import Image from "next/image";
 
-const roboto = Roboto({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "700", "900"],
-  display: "swap",
-});
+
 
 export const metadata: Metadata = {
   title: "Green Farm House",
@@ -36,7 +32,7 @@ export default function RootLayout({
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Outfit:wght@100..900&display=swap" rel="stylesheet"></link>
 
       </head>
-      <body className={roboto.className}>
+      <body >
         
         <Layout>
           {children}
