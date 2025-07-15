@@ -12,9 +12,9 @@ import ButtonMain from "@/components/ButtonComp/ButtonComp";
 import Image from "next/image";
 
 export default function Contact() {
-  const [name, setName] = useState("asdsadasdasd");
-  const [email, setEmail] = useState("asdsadasdas");
-  const [message, setMessage] = useState("asdsadasdas");
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
   const handleContactUs = async (e) => {
     e.preventDefault();

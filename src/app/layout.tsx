@@ -11,9 +11,9 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "NextJS Tailwind Author Page",
+  title: "Green Farm House",
   description:
-    'Introducing Tailwind Author Page, a free "About the Author" blog page based on Tailwind CSS and Material Tailwind.',
+    'Experience the ultimate luxury and comfort in our green farmhouse.',
 };
 
 export default function RootLayout({
