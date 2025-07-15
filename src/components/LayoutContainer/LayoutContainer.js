@@ -5,7 +5,7 @@ import React from "react";
 
 
 
-export default function LayoutContainer() {
+export default function LayoutContainer({source}) {
 
     
   return (
@@ -13,7 +13,7 @@ export default function LayoutContainer() {
       
 
       <img
-        src="/image/8.png"
+        src={`/image/${source}`}
         alt="Description of image"
         width={500}
         height={500}

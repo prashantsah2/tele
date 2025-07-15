@@ -1,5 +1,6 @@
 
 import Image from "next/image";
+import { title } from "process";
 import React from "react";
 
 
@@ -14,32 +15,58 @@ import React from "react";
 
 export default function NearbyProjects() {
 
+  
+
 
     const data = [
       {
-        title: "Ram Path and Road Infrastructure Enhancements",
-        description: "A 13 km road from Naya Ghat to Sahadatganj is being widened to four lanes, with a budget of ₹800 crore allocated for land acquisition and construction. Additional Roads: The Uttar Pradesh government approved a plan to widen and repair 158 roads in Ayodhya, with a total budget of ₹250 crore, enhancing connectivity across five assembly constituencies.",
-        description2: " These projects aim to improve traffic flow and accessibility, especially for pilgrims visiting the Ram Temple.",
-        description3: " ₹800 crore for the Naya Ghat to Sahadatganj road, and ₹250 crore for the 158 roads.",
-        description4: "Completion Timeline: The Naya Ghat to Sahadatganj road is expected to be completed by December 2024.",
-        image: "/image/75.jpg"
+        title: "Sagar Institute, 15 min",
+        description: "let your children’s dreams take flight, with quality education just a short drive away.",
+        description2: "It is a leading educational institution in the region, offering a wide range of courses and programs.",
+        description3: " The institute is known for its experienced faculty, modern infrastructure, and commitment to academic excellence.",
+
+        image: "/image/85.JPG"
       },
       {
-        title: "Maharshi Valmiki International Airport, Ayodhya",
-        description: "Inaugurated on December 30, 2023, this airport aims to improve air connectivity to Ayodhya. Features: Located adjacent to NH-27 and NH-330, it serves both Ayodhya and Faizabad. Impact: Handled over 1.1 million passengers in its first operational year, marking it as one of India's fastest-growing airports.",
-        description2: " ₹1,000 crore for the airport's construction and development.",
-        description3: " Equipped with a 3,200-meter runway, a terminal building, and modern amenities.",
-        description4: " The airport is expected to handle 1.5 million passengers annually by 2025.",
-        image: "/image/76.avif"
+        title: "BBD College, 20 min",
+        description: "A future of possibilities lies within reach for young minds chasing purpose and growth.",
+        description2: "The college offers a diverse range of undergraduate and postgraduate programs.",
+        description3: "With a focus on holistic development, BBF College nurtures talent and fosters innovation.",
+        description4: "State-of-the-art facilities and experienced faculty make it a top choice for students.",
+        image: "/image/84.jpg"
       },
       {
-        title: "84-Kosi Parikrama Marg",
+        title: "Proposed Outer Ring Road, 15 min",
         description: "A 67 km ring road connecting Ayodhya, Gonda, and Basti, aimed at reducing traffic congestion and facilitating pilgrim movement. Budget: Estimated at ₹4,000 crore, with land acquisition in its final stages.",
         description2: "  The road will have a 100-meter-wide corridor, with a 60-meter-wide carriageway and a 20-meter-wide green belt.",
         description3: "  It will significantly enhance connectivity for pilgrims and tourists visiting the Ram Temple.",
         description4: " The project is expected to be completed by 2025, with ongoing land acquisition and construction.",
-        image: "/image/77.jpg"
-      }
+        image: "/image/86.jpg"
+      },{
+        title: "Safdarganj Railway Station, 1 km",
+        description: "Life moves fast, and your world stays connected. Just a walk away from seamless journeys.",
+        description2: "Safdarganj Railway Station is a key transportation hub in the region, providing convenient access to various destinations.",
+        description3: "The station is well-equipped with modern facilities, ensuring a comfortable travel experience for passengers.",
+        image: "/image/87.jpg"
+
+
+      },
+      {
+        title: "Chaudhary Charan Singh International Airport, 40 min",
+        description: "Whether it’s family visits or business calls, the world is never too far from home.",
+        description2: "The airport is a major gateway for domestic and international flights, connecting the region to the world.",
+        description3: "It features state-of-the-art terminals, modern amenities, and efficient services for travelers.",
+        image: "/image/88.jpg"
+
+      },
+      {
+        title: "City Hospital, 15 min",
+        description: "Because peace of mind also means knowing care is always nearby.",
+        description2: "City Hospital is a leading healthcare facility in the region, providing comprehensive medical services.",
+        description3: "With a team of experienced doctors and advanced medical technology, it ensures quality healthcare for all.",
+        image: "/image/89.JPG"
+      },
+     
 
 
     ]
