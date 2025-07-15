@@ -25,7 +25,7 @@ export default function NearbyProjects() {
         description2: "It is a leading educational institution in the region, offering a wide range of courses and programs.",
         description3: " The institute is known for its experienced faculty, modern infrastructure, and commitment to academic excellence.",
 
-        image: "/image/85.JPG"
+        image: "/image/85.jpg"
       },
       {
         title: "BBD College, 20 min",

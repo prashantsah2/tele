@@ -9,7 +9,7 @@ export default function QuestionsSet() {
 
   const questions = [
     {
-      title: "Are these farmhouses suitable for weekend getaways or permanent living?",
+      title: `Are these farmhouses suitable for weekend getaways or permanent living?`,
       answer: (
         <p>{`Yes, they’re perfect for both. Whether you're looking for a weekend escape, a holiday home, or a nature-rich permanent residence, our farmhouses are fully equipped to meet your needs.`}</p>
       ),
