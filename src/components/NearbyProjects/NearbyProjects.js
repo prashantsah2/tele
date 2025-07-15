@@ -32,7 +32,7 @@ export default function NearbyProjects() {
         description: "A future of possibilities lies within reach for young minds chasing purpose and growth.",
         description2: "The college offers a diverse range of undergraduate and postgraduate programs.",
         description3: "With a focus on holistic development, BBF College nurtures talent and fosters innovation.",
-        description4: "State-of-the-art facilities and experienced faculty make it a top choice for students.",
+        description4: "State of the art facilities and experienced faculty make it a top choice for students.",
         image: "/image/84.jpg"
       },
       {

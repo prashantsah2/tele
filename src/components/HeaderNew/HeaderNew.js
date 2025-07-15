@@ -11,7 +11,7 @@ export default function HeaderNew(){
 
 
     const[isTop,setIsTop]=useState(true)
-    const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+    const [isMobile, setIsMobile] = useState(window.innerWidth < 76);
  const [navOpen,setNavOpen]=useState(false)
 
      const navOptionsMobile = [
@@ -50,7 +50,7 @@ export default function HeaderNew(){
 
   const toggleNav = () => {
     setNavOpen(!navOpen);
-    console.log("Nav Open:", navOpen);
+    console.log("Nav Open", navOpen);
   };
 
 // Close nav when clicking outside the mobile menu
