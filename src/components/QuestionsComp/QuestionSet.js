@@ -6,19 +6,19 @@ import { useState } from "react";
 export default function QuestionsSet() {
 
 
-  
+
   const questions = [
     {
       title: "Are these farmhouses suitable for weekend getaways or permanent living?",
       answer: (
-        <p>Yes, they’re perfect for both. Whether you're looking for a weekend escape, a holiday home, or a nature-rich permanent residence, our farmhouses are fully equipped to meet your needs .</p>
+        <p>{`Yes, they’re perfect for both. Whether you're looking for a weekend escape, a holiday home, or a nature-rich permanent residence, our farmhouses are fully equipped to meet your needs.`}</p>
       ),
     },
     {
       title: `What amenities do you offer?`,
       answer: (
         <p>
-          Our farmhouses come with modern amenities like:
+         {` Our farmhouses come with modern amenities like:`}
           <ul>
             <li>Private gated access</li>
             <li>Water and electricity connections</li>
@@ -34,7 +34,7 @@ export default function QuestionsSet() {
       answer: (
         <div className="flex flex-row text-md font-outfit">
           <p>
-            Yes. All properties are 100% verified with proper land titles, ownership documents, and legal clearances to ensure a secure purchase.
+     {`       Yes. All properties are 100% verified with proper land titles, ownership documents, and legal clearances to ensure a secure purchase.`}
           </p>
         </div>
       ),
@@ -45,7 +45,7 @@ export default function QuestionsSet() {
       answer: (
         <div className="flex flex-row text-md font-outfit">
           <p>
-            Definitely. You can custom-build your dream villa or we can help you with turnkey construction as per your preferences.
+            {`       Definitely. You can custom-build your dream villa or we can help you with turnkey construction as per your preferences.`}
           </p>
         </div>
       ),
@@ -54,7 +54,7 @@ export default function QuestionsSet() {
       answer: (
         <div className="flex flex-row text-md font-outfit">
           <p>
-            You can book a free site visit with us. Our team will arrange a guided tour and provide you with all necessary details.
+          {`  You can book a free site visit with us. Our team will arrange a guided tour and provide you with all necessary details.`}
           </p>
         </div>
       ),
