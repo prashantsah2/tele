@@ -43,9 +43,9 @@ export default function NearbyProjects() {
         description4: " The project is expected to be completed by 2025, with ongoing land acquisition and construction.",
         image: "/image/86.jpg"
       },{
-        title: "Safdarganj Railway Station, 1 km",
+        title: "Barabanki Railway Station, 20 min",
         description: "Life moves fast, and your world stays connected. Just a walk away from seamless journeys.",
-        description2: "Safdarganj Railway Station is a key transportation hub in the region, providing convenient access to various destinations.",
+        description2: "Barabanki Railway Station is a key transportation hub in the region, providing convenient access to various destinations.",
         description3: "The station is well-equipped with modern facilities, ensuring a comfortable travel experience for passengers.",
         image: "/image/87.jpg"
 
