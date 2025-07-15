@@ -18,7 +18,7 @@ export default function Pricing() {
         <div className="grid grid-cols-2 text-sm text-white divide-y divide-yellow-300">
           <div className="p-4">
             <p className="font-bold">Delux</p>
-            <p>10,000 sq. ft (1BHK) Premium, Fully Furnished, Pool, 2 Orchards</p>
+            <p>10,000 sq. 1 Bedroom + 1 Kitchen + 1 Bathroom</p>
           </div>
           <div className="p-4 flex items-center justify-center text-lg text-yellow-300">
             650 /per sq. ft

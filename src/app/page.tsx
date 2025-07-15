@@ -89,9 +89,10 @@ export default function Campaign() {
       
    <StaticComp4 data={dataforstat4}/>
             <KeyFeatures/>
+            <LayoutContainer source={'9.png'}/>
+        <LayoutContainer source={'11.png'}/>
       <LayoutContainer source={'8.png'}/>
-       <LayoutContainer source={'9.png'}/>
-        <LayoutContainer source={'10.png'}/>
+       
        <StaticComp7/>
        <NearbyProjects/>
        
