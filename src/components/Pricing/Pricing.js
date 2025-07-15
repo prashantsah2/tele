@@ -35,7 +35,7 @@ export default function Pricing() {
       </div>
 
       {/* Custom Build Info */}
-      <p className="mt-4 text-sm text-center text-[#e6d790]">
+      <p className="mt-4 text-sm text-center text-[#e6d791]">
         Custom Build As required. Fully personalized as per client need – <strong>On Request</strong>
       </p>
 
