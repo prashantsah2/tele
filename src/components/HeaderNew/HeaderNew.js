@@ -149,7 +149,7 @@ useEffect(() => {
                 className="obje ct-contain cursor-pointer max-sm:w-[131px]"
                 style={{marginRight:'auto',marginLeft:isMobile?0:-41,}}
             /> */}
-           <a href="/" className="outline-none text-decoration-none hover:none"> <p className="text-lg font-lora text-[#fff] font-semibold">GREEN FARM HOUSE</p></a>
+           <a href="/" className="outline-none text-decoration-none hover:none"> <p className="text-lg font-lora text-[#e3bb09] font-bold" style={{marginLeft:-32}}>GREEN FARM HOUSE</p></a>
 
             </div>
             <div>

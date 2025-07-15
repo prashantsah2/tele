@@ -42,7 +42,7 @@ export default function Pricing() {
       {/* Payment Schedule */}
       <div className="w-full mt-10 bg-[#295229] border-2 border-yellow-400 rounded-xl p-6 text-sm">
         <h3 className="text-yellow-300 text-xl w-full flex justify-center items-center font-semibold mb-4">Payment Schedule </h3>
-        <ul className="space-y-1 text-white">
+        <ul className="space-y-1 text-white ml-auto mr-auto flex flex-col items-center justify-center w-full">
           <li>Booking .............................................. : 10%</li>
           <li>Within 30 Days ................................. : 15%</li>
           <li>Within 60 Days ................................. : 20%</li>
