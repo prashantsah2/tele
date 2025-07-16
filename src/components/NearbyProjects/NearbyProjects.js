@@ -82,7 +82,7 @@ return(
 
 <div className="flex flex-col justify-center items-center w-full min-h-[100vh] bg-[#dbb612] py-12 max-lg:px-4">
   <div className="flex flex-col justify-center items-center">
-    <p className="text-[41px] text-[#222] font-outfit max-lg:text-[31px]">Nearby Projects</p>
+    <p className="text-[41px] text-[#222] font-outfit max-lg:text-[31px]">Near by Projects</p>
   </div>
 
   <div className="flex flex-col justify-center items-center w-full  px-4 py-8 text-[#fff] max-sm:px-0">

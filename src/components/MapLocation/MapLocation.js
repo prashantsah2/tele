@@ -5,7 +5,7 @@ export default function MyMap() {
     <div className="w-full h-[400px] rounded-xl overflow-hidden shadow-md">
      
       <iframe
-        src="https://www.google.com/maps/embed?pb=!4v1752584472219!6m8!1m7!1s-ZRYIu1mGuEE4VcKBNyE9w!2m2!1d26.92235312051464!2d81.37509067257746!3f150.96619321886206!4f-4.208263207315184!5f1.7659023081855802"
+        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3557.4098018535283!2d81.37514!3d26.922220000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjbCsDU1JzIwLjAiTiA4McKwMjInMzAuNSJF!5e0!3m2!1sen!2sin!4v1752638428679!5m2!1sen!2sin"
         width="100%"
         height="100%"
         style={{ border: 0 }}
@@ -13,6 +13,8 @@ export default function MyMap() {
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
       ></iframe>
+
+
 
 
     
