@@ -47,7 +47,7 @@ export default function NearbyProjects() {
         description: "Located just minutes from Safdarganj Railway Station, our farmhouse offers the perfect blend of peaceful countryside living with unmatched travel convenience.",
         description2: "Safdarganj Railway Station is a key transportation hub in the region, providing convenient access to various destinations.",
         description3: "The station is well-equipped with modern facilities, ensuring a comfortable travel experience for passengers.",
-        image: "/image/safdarganj railway.png"
+        image: "/image/safdarganjrailway.png"
 
 
       },
