@@ -84,7 +84,7 @@ export default function Campaign() {
  {/*       <PinterestGallery/> */}
       {/*  <Licensing/> */}
       
-      <div className="w-full flex justify-center items-center flex-col bg-[#f9f9d9]">
+      <div className="w-full flex justify-center items-center flex-col bg-[#f9f9d7]">
      
       
    <StaticComp4 data={dataforstat4}/>
