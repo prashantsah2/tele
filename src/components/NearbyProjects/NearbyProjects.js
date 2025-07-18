@@ -53,7 +53,7 @@ export default function NearbyProjects() {
       },
       
       
-      {
+   /*    {
         title: "Barabanki Railway Station, 20 min",
         description: "Life moves fast, and your world stays connected. Just a walk away from seamless journeys.",
         description2: "Barabanki Railway Station is a key transportation hub in the region, providing convenient access to various destinations.",
@@ -61,7 +61,7 @@ export default function NearbyProjects() {
         image: "/image/87.jpg"
 
 
-      },
+      }, */
       {
         title: "Chaudhary Charan Singh International Airport, 40 min",
         description: "Whether it’s family visits or business calls, the world is never too far from home.",

@@ -15,8 +15,10 @@ export default function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [loading,setLoading] = useState(false);
 
   const handleContactUs = async (e) => {
+    setLoading(true);
     e.preventDefault();
 
     try {
@@ -33,6 +35,7 @@ export default function Contact() {
       if (result.ok) {
         const data = await result.json();
         alert("Contact form submitted successfully!");
+        setLoading(false);
       } else {
         console.error("Error:", result.statusText);
       }
@@ -84,11 +87,17 @@ export default function Contact() {
               </div>
 
               <div>
+                {loading?<>
+                <div className="w-[231px] py-2 ml-1 px-4 text-md text-[#fff] font-outfit bg-[#2df6a2] mt-4 flex justify-center rounded-[41px] cursor-pointer">
+                  Loading...
+                </div>
+                </>:<>
                 <div className="w-[231px] py-2 ml-1 px-4 text-md text-[#383838] font-outfit bg-[#2df6a2] mt-4 flex justify-center rounded-[41px] cursor-pointer"
                 onClick={handleContactUs} 
                 >
                   contact
                 </div>
+                </>}
               </div>
             </div>
 

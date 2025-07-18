@@ -18,7 +18,7 @@ export default function KeyFeatures(){
 
 list :[{title:'Lush Green Lawn', image:'/image/18.png'},
 {title:'Children’s Play Zone', image:'/image/19.png'},
-{title:'Modern Kitchen', image:'/image/20.png'},
+{title:'Kitchen', image:'/image/20.png'},
 {title:'Outdoor Lighting', image:'/image/21.png'},
 {title:'Organic Farming Zone', image:'/image/22.png'},
 {title:'Gated Access', image:'/image/23.png'},
