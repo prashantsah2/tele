@@ -1,10 +1,14 @@
 "use client";
 import { title } from "process";
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 
 export default function QuestionsSet() {
 
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts
+    window.scrollTo(0, 0);
+  }, []);
 
 
   const questions = [
@@ -122,13 +126,13 @@ export default function QuestionsSet() {
                     />
                   </svg>
                 </div>
-                <div className="font-outfit text-4xl text-[#2b2b2bda]">
+                <div className="font-outfit text-4xl text-[#2b2b2bda] max-sm:text-[17px] max-sm:leading-4 max-sm:py-2">
                   {item.title}
                 </div>
               </div>
 
               <div
-                className={`flex font-outfit ml-12 mt-4 overflow-hidden transition-all duration-300 ${
+                className={`flex font-outfit ml-12 mt-4 overflow-hidden transition-all duration-300 max-md:text-[21px] max-sm:text-[18px] ${
                   openIndex === questions.indexOf(item)
                     ? "max-h-screen opacity-100"
                     : "max-h-0 opacity-0"

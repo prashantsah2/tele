@@ -47,10 +47,10 @@ export default function Contact() {
   return (
     <>
       <HeaderNew />
-      <div className="w-full flex flex-col justify-center items-center pt-12 bg-[#e3bb09]">
-        <div className="flex flex-col justify-center items-center max-w-[1441px] w-full px-12 ">
+      <div className="w-full flex flex-col justify-center items-center pt-12 bg-[#e3bb09] max-sm:pt-[45px]">
+        <div className="flex flex-col justify-center items-center max-w-[1441px] w-full px-12 max-sm:px-2">
           <div className="w-full flex flex-row justify-start items-start bg-[#faffdd] py-8 px-8 rounded-lg mt-12">
-            <div className="flex flex-col justify-start items-start w-[50%]">
+            <div className="flex flex-col justify-start items-start w-[50%] max-sm:w-full">
               <div className="w-full flex flex-col justify-start items-start max-w-[471px]">
                 <ReusablInput
                   label={"Name"}
@@ -80,7 +80,7 @@ export default function Contact() {
 
               <div className="w-full flex flex-row justify-start items-start max-w-[471px] mt-6 ml-[-11px]">
                 <Checkbox className="p-0 pl-[-22px]" />
-                <p className="text-outfit text-[#333] text-sm leading-4 mt-2">
+                <p className="text-outfit text-[#333] text-sm leading-4 mt-2 max-sm:w-[300px]">
                   I agree to terms and conditions and i agree for my data to be
                   used for personalised ads
                 </p>
@@ -106,7 +106,7 @@ export default function Contact() {
               alt="Rainnee Logo"
               width={198}
               height={50}
-              className="object-contain cursor-pointer mt-6 w-[491px] ml-10"
+              className="object-contain cursor-pointer mt-6 w-[491px] ml-10 max-sm:hidden"
               style={{ marginRight: "auto", marginLeft: -51 }}
             />
           </div>
