@@ -316,7 +316,7 @@ const SocialMedia = () => {
         <motion.div variants={itemVariants} className="mb-16 sm:mb-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             {/* Testimonial Illustration Space */}
-            <div className="order-2 lg:order-1">
+          {/*   <div className="order-2 lg:order-1">
               <div className="bg-white/10 backdrop-blur-lg rounded-2xl h-48 sm:h-64 lg:h-80 flex items-center justify-center border border-white/20">
                 <div className="text-center">
                   <div className="w-16 h-16 sm:w-20 sm:h-20 bg-yellow-400/20 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -329,9 +329,9 @@ const SocialMedia = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="order-1 lg:order-2">
+        {/*     <div className="order-1 lg:order-2">
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-6">
                 What Our Clients Say
               </h2>
@@ -348,7 +348,7 @@ const SocialMedia = () => {
                   - Sarah Johnson, Startup Founder
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </motion.div>
 

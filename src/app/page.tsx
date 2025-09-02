@@ -16,7 +16,7 @@ export default function Campaign() {
       <div className="w-full flex justify-center items-center flex-col bg-[#0906bd]">
         <Static11 />
         <OurProjects2 />
-        <BentoSet2/>
+       {/*  <BentoSet2/> */}
       </div>
 
       <Footer2/>
