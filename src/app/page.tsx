@@ -1,124 +1,36 @@
-/* export const metahome = {
-  title: 'Buy Farmhouse in India | Luxury Farmhouse Plots Near Delhi, Mumbai, Bangalore',
-  description:
-    'Browse verified farmhouse listings and premium land for sale across India. Explore luxury plots and weekend homes near Delhi NCR, Mumbai, Gurgaon, Bangalore, and more. Transparent pricing, legal support, and free site visits.',
-  keywords: [
-    'Farmhouse for sale India',
-    'Luxury farmhouse plots Delhi NCR',
-    'Buy farmhouse land Mumbai',
-    'Second home near Bangalore',
-    'Verified farm properties India',
-    'Affordable weekend farmhouse',
-    'Farmhouse investment opportunities',
-    'Agricultural land for sale India'
-  ],
- 
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Farmhouse for Sale in India',
-    description:
-      'Find verified farmhouse properties near Delhi, Gurgaon, Mumbai & Bangalore. Transparent deals. Legal + site visit help.',
-  
-  },
-}; */
-
-
-
-
-
-
-
+import Hero2 from "@/components/Hero2/Hero2";
 import OurProjects from "@/components/OurProjects/OurProjects";
-import Header from '@/components/Header/Header'
-import HeaderNew from '@/components/HeaderNew/HeaderNew';
-import MiniHeader from '@/components/MiniHeader/MiniHeader'
-import PinterestGallery from '@/components/Gallery/Gallery'
-import Footer from "@/components/Footer/Footer";
-import RequestDesign from "@/components/RequestDesign/RequestDesign";
-import Email from "@/components/Email/Email"
-import Licensing from "@/components/Licensing/Licensing"
-import Pricing from "@/components/Pricing/Pricing"
-import HeroSection from "@/components/HeroSection/HeroSection";
-import StaticComp4 from "@/components/StaticComp4/StaticComp4"
-import StaticComp7 from "@/components/StaticComp7/StaticComp7";
-import MyMap from "@/components/MapLocation/MapLocation";
-import KeyFeatures from "@/components/KeyFeatures/KeyFeatures";
-import NearbyProjects from "@/components/NearbyProjects/NearbyProjects";
-import LayoutContainer from "@/components/LayoutContainer/LayoutContainer";
-import QueryForm from "@/components/QueryForm/Query"
-
-
+import Static11 from "@/components/Static11/Static11";
+import OurProjects2 from "@/components/OurProjects2/OurProjects2";
+import BentoSet2 from "@/components/BentoSet2/BentoSet2";
+import Footer2 from "@/components/Footer2/Footer2";
+import Header3 from "@/components/Header3/Header3";
 
 export default function Campaign() {
-
-  const dataforstat4 = {
-        titletop: "Why us",
-        title: "Why Choose our farmhouse",
-        titledesc : ``,
-       innerdata : [
-    {        image: `/image/97.png`,
-        title: "Outdoor Dining",
-    description: "We provide fast and reliable service to ensure your goods are delivered on time."},
-    
-    {        image: `/image/92.jpeg`, 
-        title: "Orchard",
-    description: "Our team ensures that all goods are handled with the utmost care and quality."},
-    {        image: `/image/93.avif`, 
-        title: "Swimming Pool",
-    description: "We offer 24/7 customer support to assist you with any inquiries or issues."
-    },
-    ]
-    }
-
-
-
-
   return (
     <>
-   
-       
-       <HeaderNew/>
-       <HeroSection/>
-    
-       {/* <MiniHeader/> */}
- {/*       <PinterestGallery/> */}
-      {/*  <Licensing/> */}
-      
-      <div className="w-full flex justify-center items-center flex-col bg-[#f9f9d7]">
-     
-      
-   <StaticComp4 data={dataforstat4}/>
-            <KeyFeatures/>
-             <LayoutContainer source={'11.png'}/>
-            
-       
-      <LayoutContainer source={'8.png'}/>
-      <LayoutContainer source={'9.png'}/>
-       
-       <StaticComp7/>
-       <NearbyProjects/>
-       
+      {/* <HeaderNew/> */}
+      <Header3 />
+      <Hero2 />
 
-       <Pricing/>
-       <QueryForm/>
-       
-       <MyMap />
-       
-
-
-
+      <div className="w-full flex justify-center items-center flex-col bg-[#0906bd]">
+        <Static11 />
+        <OurProjects2 />
+        <BentoSet2/>
       </div>
 
-
-
-
-       <Footer/>
-
-       
-
-
-  
-  
+      <Footer2/>
+      <div 
+        className="absolute inset-0 opacity-30"
+        style={{
+          backgroundImage: `
+            linear-gradient(rgba(59, 130, 246, 0.5) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(59, 130, 246, 0.5) 1px, transparent 1px)
+          `,
+          backgroundSize: '40px 40px'
+        }}
+      />
+      
     </>
   );
 }

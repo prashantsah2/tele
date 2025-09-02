@@ -8,6 +8,10 @@ const config: Config = withMT({
   ],
   theme: {
     extend: {
+      colors: {
+        'primary': '#25ea2f',
+        
+      },
       spacing: {
         '1/2': '50%',
         '1/3': '33.333333%',
@@ -63,6 +67,7 @@ const config: Config = withMT({
       fontFamily: {   // <-- moved here
         'lora': ['Lora', 'serif'],
         'outfit': ['Outfit', 'sans-serif'],
+        'bebas': ['Bebas Neue', 'cursive'],
       },
     },
   },
