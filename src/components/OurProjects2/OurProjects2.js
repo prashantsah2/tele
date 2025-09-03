@@ -1,6 +1,7 @@
 "use client"
 import React from 'react';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 const OurProjects2 = () => {
   const projects = [
@@ -9,23 +10,23 @@ const OurProjects2 = () => {
       title: "CLAN Businesss - Marketplace", 
       description: "Clan Marketplace is a cutting-edge platform designed to connect buyers and sellers in a seamless online environment.",
       technologies: ["React", "Node.js", "AI/ML", "MongoDB"],
-      image: "Project Screenshot"
+      image: '/image/proj.png'
     },
     {
       id: 2,
       title: "Clanfest - An artist event platforms",
       description: "A full-stack e-commerce solution with advanced analytics, inventory management, and seamless payment integration for modern businesses.",
       technologies: ["Next.js", "Stripe", "PostgreSQL", "AWS"],
-      image: "Project Screenshot"
+      image: `/image/proj.png`
     },
     {
       id: 3,
       title: "Weather Analytics Dashboard",
       description: "Real-time weather monitoring and prediction system with beautiful data visualizations and historical trend analysis for multiple locations.",
       technologies: ["Vue.js", "D3.js", "Python", "API"],
-      image: "Project Screenshot"
+      image: `/image/proj.png`
     },
-    {
+    /* {
       id: 4,
       title: "Social Media Manager",
       description: "Comprehensive social media management tool with content scheduling, analytics tracking, and automated engagement features.",
@@ -45,7 +46,7 @@ const OurProjects2 = () => {
       description: "Secure cryptocurrency wallet with multi-chain support, DeFi integration, and advanced security features for digital asset management.",
       technologies: ["Web3", "Ethereum", "Solidity", "MetaMask"],
       image: "Project Screenshot"
-    }
+    } */
   ];
 
   const containerVariants = {
@@ -144,8 +145,8 @@ const OurProjects2 = () => {
                 <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-green-500 to-green-600"></div>
                 
                 {/* Project Image Placeholder */}
-                <div className="w-full h-48 bg-white/10 rounded-2xl mb-6 flex items-center justify-center border-2 border-dashed border-white/30 transition-all duration-300 group-hover:bg-white/15">
-                  <span className="text-lg opacity-70">{project.image}</span>
+                <div className="w-full mt-4 bg-white/10 rounded-2xl mb-6 flex items-center justify-center  border-white/30 transition-all duration-300 group-hover:bg-white/15">
+                 <Image src={project.image} alt={project.title} className='w-full rounded-2xl' width={500} height={300} />
                 </div>
 
                 {/* Project Title */}
