@@ -49,7 +49,7 @@ const SocialMedia = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-[#0906bd] relative overflow-hidden">
+    <div className="min-h-screen bg-primarybg relative overflow-hidden">
 
 
        <div className="absolute inset-0 opacity-20 -z-0">
@@ -92,23 +92,7 @@ const SocialMedia = () => {
         />
       </div>
 
-      {/* Floating contact icons - Desktop only */}
-      <div className="hidden lg:flex fixed right-4 xl:right-6 top-1/2 transform -translate-y-1/2 z-50 flex-col space-y-3 z-10">
-        {[
-          { icon: <MessageCircle className="w-5 h-5" />, color: "bg-green-500" },
-          { icon: <Phone className="w-5 h-5" />, color: "bg-green-600" },
-          { icon: <Mail className="w-5 h-5" />, color: "bg-green-700" }
-        ].map((contact, index) => (
-          <motion.div
-            key={index}
-            whileHover={{ scale: 1.1, x: -8 }}
-            whileTap={{ scale: 0.95 }}
-            className={`w-12 h-12 ${contact.color} rounded-full flex items-center justify-center cursor-pointer shadow-lg hover:shadow-xl transition-all duration-300`}
-          >
-            <span className="text-white">{contact.icon}</span>
-          </motion.div>
-        ))}
-      </div>
+   
 
       <motion.div 
         className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16"
@@ -121,9 +105,9 @@ const SocialMedia = () => {
           {/* Left Column - Text Content */}
           <div className="order-2 lg:order-1">
             <motion.div variants={itemVariants} className="mb-6">
-              <div className="inline-flex items-center gap-2 bg-green-500/20 px-4 py-2 rounded-full border border-green-400/30 mb-6">
-                <Target className="w-4 h-4 text-green-400" />
-                <span className="text-green-400 font-medium text-sm">Social Media Management</span>
+              <div className="inline-flex items-center gap-2 bg-green-500/20 px-4 py-2 rounded-full border border-primary mb-6">
+                <Target className="w-4 h-4 text-primary" />
+                <span className="text-primary font-medium text-sm">Social Media Management</span>
               </div>
             </motion.div>
 
@@ -204,12 +188,12 @@ const SocialMedia = () => {
                 key={index}
                 variants={itemVariants}
                 whileHover={{ y: -8, scale: 1.02 }}
-                className={`bg-gradient-to-br ${service.color} backdrop-blur-lg p-6 sm:p-8 rounded-2xl border border-white/20 shadow-xl hover:shadow-2xl transition-all duration-300`}
+                className={`bg-gradient-to-br ${service.color} backdrop-blur-lg p-6 sm:p-8 rounded-2xl border border-white/20 hover:shadow-2xl transition-all duration-300`}
               >
                 {/* Illustration Space */}
                 <div className="bg-white/10 rounded-2xl h-32 sm:h-40 mb-6 flex items-center justify-center border border-white/10">
                   <div className="text-center">
-                    <div className="text-green-400 mb-2">
+                    <div className="text-primary mb-2">
                       {service.icon}
                     </div>
                     <p className="text-white/60 text-xs sm:text-sm">
@@ -218,7 +202,7 @@ const SocialMedia = () => {
                   </div>
                 </div>
 
-                <h3 className="text-green-400 font-bold text-lg sm:text-xl mb-3">
+                <h3 className="text-primary font-bold text-lg sm:text-xl mb-3">
                   {service.title}
                 </h3>
                 <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
@@ -249,7 +233,7 @@ const SocialMedia = () => {
                       variants={itemVariants}
                       className="flex items-start gap-4 p-4 bg-white/5 rounded-xl border border-white/10"
                     >
-                      <div className="w-8 h-8 bg-green-400 text-black rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">
+                      <div className="w-8 h-8 bg-primarybg text-primary rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">
                         {item.step}
                       </div>
                       <div>

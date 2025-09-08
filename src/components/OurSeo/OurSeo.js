@@ -51,7 +51,7 @@ export default function OurSeo() {
   };
 
   return (
-    <div className="min-h-screen bg-[#0906bd] w-full text-white p-8">
+    <div className="min-h-screen bg-primarybg w-full text-white p-8">
       <div className="max-w-[1371px] mx-auto">
         {/* Header Section */}
         <motion.div 

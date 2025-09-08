@@ -82,7 +82,7 @@ export default function PPC() {
   };
 
   return (
-    <div className="min-h-screen bg-[#0906bd] text-white">
+    <div className="min-h-screen bg-primarybg text-white">
       <motion.div 
         className="container mx-auto px-8 py-12"
         initial="hidden"
@@ -95,7 +95,7 @@ export default function PPC() {
           <motion.div variants={textVariants}>
             <h1 className="text-4xl md:text-5xl font-bold mb-8 leading-tight">
               Why PPC Advertising{' '}
-              <span className="text-green-400">Works</span> for
+              <span className="text-primary">Works</span> for
               Small Businesses
             </h1>
             
@@ -205,17 +205,17 @@ export default function PPC() {
                     stroke="currentColor"
                     strokeWidth="6"
                     fill="none"
-                    className="text-green-400"
+                    className="text-primary"
                     strokeDasharray="175"
                     strokeDashoffset="35"
                   />
                 </svg>
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <Zap className="w-6 h-6 text-green-400" />
+                  <Zap className="w-6 h-6 text-primary" />
                 </div>
               </div>
             </motion.div>
-            <h3 className="text-xl font-bold text-green-400 mb-3">Immediate Results, Maximum ROI</h3>
+            <h3 className="text-xl font-bold text-primary mb-3">Immediate Results, Maximum ROI</h3>
             <p className="text-sm leading-relaxed">
               Start seeing qualified traffic and conversions as soon as 
               your ads go live. We prioritize targeting and ad content that 
@@ -235,20 +235,20 @@ export default function PPC() {
               whileHover="hover"
             >
               <div className="relative">
-                <Target className="w-16 h-16 text-green-400" strokeWidth={2} />
+                <Target className="w-16 h-16 text-primary" strokeWidth={2} />
                 <motion.div 
                   className="absolute inset-0"
                   animate={{ rotate: 360 }}
                   transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
                 >
                   <svg viewBox="0 0 64 64" className="w-16 h-16">
-                    <circle cx="32" cy="32" r="8" fill="none" stroke="currentColor" strokeWidth="2" className="text-green-400" opacity="0.5" />
-                    <circle cx="32" cy="32" r="16" fill="none" stroke="currentColor" strokeWidth="1" className="text-green-400" opacity="0.3" />
+                    <circle cx="32" cy="32" r="8" fill="none" stroke="currentColor" strokeWidth="2" className="text-primary" opacity="0.5" />
+                    <circle cx="32" cy="32" r="16" fill="none" stroke="currentColor" strokeWidth="1" className="text-primary" opacity="0.3" />
                   </svg>
                 </motion.div>
               </div>
             </motion.div>
-            <h3 className="text-xl font-bold text-green-400 mb-3">Hyper-Targeted Campaigns</h3>
+            <h3 className="text-xl font-bold text-primary mb-3">Hyper-Targeted Campaigns</h3>
             <p className="text-sm leading-relaxed">
               Reach your ideal customers with precision targeting, 
               keyword research, and audience analysis to ensure your ad spend 
@@ -268,7 +268,7 @@ export default function PPC() {
               whileHover="hover"
             >
               <div className="relative">
-                <Calculator className="w-16 h-16 text-green-400" strokeWidth={2} />
+                <Calculator className="w-16 h-16 text-primary" strokeWidth={2} />
                 <motion.div 
                   className="absolute -top-2 -right-2 bg-yellow-400 rounded-full w-6 h-6 flex items-center justify-center"
                   animate={{ scale: [1, 1.2, 1] }}
@@ -278,7 +278,7 @@ export default function PPC() {
                 </motion.div>
               </div>
             </motion.div>
-            <h3 className="text-xl font-bold text-green-400 mb-3">Budget Control That Scales</h3>
+            <h3 className="text-xl font-bold text-primary mb-3">Budget Control That Scales</h3>
             <p className="text-sm leading-relaxed">
               Only pay when someone clicks. You set the budget, 
               and we make sure every dollar is used efficiently to 

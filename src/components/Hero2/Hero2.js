@@ -4,13 +4,13 @@ import Image from 'next/image';
 
 export default function Hero2() {
   return (
-    <div className="min-h-screen bg-[#0906bd] relative overflow-hidden first-letter pt-[71px]">
+    <div className="min-h-screen bg-primarybg relative overflow-hidden first-letter pt-[71px]">
       {/* Grid Pattern Background */}
       <div className="absolute inset-0 opacity-20">
         <svg width="100%" height="100%" className="w-full h-full">
           <defs>
             <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-              <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.3)" strokeWidth="1"/>
+              <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#fff" strokeWidth="1"/>
             </pattern>
           </defs>
           <rect width="100%" height="100%" fill="url(#grid)" />
@@ -66,7 +66,7 @@ export default function Hero2() {
           <h1 className="text-7xl lg:text-9xl font-black font-bebas text-primary text-white leading-none mb-6">
            {` DON'T WASTE`}
             <br />
-            YOUR <span className="text-[#11e81f]">TIME</span>
+            YOUR <span className="text-primary">TIME</span>
           </h1>
           
           <div className="flex items-center space-x-4 mb-8">
@@ -95,7 +95,7 @@ export default function Hero2() {
 
         {/* Right Content - Image Placeholder */}
         <div className="flex-1 flex justify-center items-center relative max-md:hidden">
-          <Image src={`/image/blazestore.in__4_-removebg-preview.png`} className=' relative max-w-[341px] object-contain' alt="Description of image" width={341} height={341} />
+          <Image src={`/image/blazestore.in__4_-removebg-preview.png`} className=' relative object-contain w-full h-[88vh] ' alt="Description of image" width={341} height={341} />
         </div>
       </div>
 

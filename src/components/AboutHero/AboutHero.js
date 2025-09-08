@@ -28,7 +28,7 @@ const faqs = [
 ];
 
   return (
-    <div className="min-h-screen bg-[#0906bd] w-full flex flex-col justify-center items-center">
+    <div className="min-h-screen  w-full flex flex-col justify-center items-center">
       {/* Custom CSS for animations */}
       <style jsx>{`
         @keyframes fade-in {
