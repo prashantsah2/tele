@@ -31,21 +31,21 @@ const OurProjects2 = () => {
       title: "Gold Estates",
       description: "Comprehensive real estate platform with property listings, virtual tours, and advanced search features.",
       technologies: ["Angular", "Express", "Redis", "Docker"],
-      image: "/Project Screenshot"
+      image: `/image/proj5.png`
     },
     {
       id: 5,
       title: "Green Farm House",
       description: "Mobile-first fitness application with workout planning, nutrition tracking, and progress visualization with social features.",
       technologies: ["React Native", "Firebase", "Charts", "GPS"],
-      image: "/Project Screenshot"
+      image: `/image/proj4.png`
     },
     {
       id: 6,
       title: "ENEN",
       description: "Green energy solutions for a sustainable future.",
       technologies: ["Web3", "Ethereum", "Solidity", "MetaMask"],
-      image: "/Project Screenshot"
+      image: `/image/proj6.png`
     }
   ];
 

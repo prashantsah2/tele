@@ -84,7 +84,7 @@ const Static11 = () => {
                     <div className="bg-blue-300 rounded h-1 w-3/4"></div>
                     <div className="bg-blue-300 rounded h-1 w-1/2"></div>
                   </div>
-                  <Smartphone className="w-4 h-4 text-green-400 mt-1" />
+                  <Smartphone className="w-4 h-4 text-primary mt-1" />
                 </div>
                 
                 {/* Tablet Screen */}
@@ -94,7 +94,7 @@ const Static11 = () => {
                     <div className="bg-purple-300 rounded h-1"></div>
                     <div className="bg-purple-300 rounded h-1 w-2/3"></div>
                   </div>
-                  <Code className="w-5 h-5 text-green-400 mt-2" />
+                  <Code className="w-5 h-5 text-primary mt-2" />
                 </div>
               </div>
               
@@ -106,19 +106,19 @@ const Static11 = () => {
                   {/* Pointing gesture */}
                   <div className="w-6 h-1 bg-black absolute top-4 -right-4 transform rotate-45"></div>
                   {/* Cape effect */}
-                  <div className="absolute -left-2 top-2 w-4 h-16 bg-green-400 rounded-l-lg opacity-60 transform -skew-y-12"></div>
+                  <div className="absolute -left-2 top-2 w-4 h-16 bg-primary rounded-l-lg opacity-60 transform -skew-y-12"></div>
                 </div>
               </div>
               
               {/* Floating Elements */}
               <div className="absolute top-8 left-8 animate-bounce delay-100">
-                <Zap className="w-6 h-6 text-green-400" />
+                <Zap className="w-6 h-6 text-primary" />
               </div>
               <div className="absolute top-16 right-4 animate-bounce delay-300">
                 <Code className="w-5 h-5 text-purple-300" />
               </div>
               <div className="absolute bottom-16 left-4 animate-bounce delay-500">
-                <Monitor className="w-5 h-5 text-green-300" />
+                <Monitor className="w-5 h-5 text-primary" />
               </div>
               
               {/* Connecting Lines */}

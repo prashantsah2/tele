@@ -6,6 +6,7 @@ import OurProjects2 from "@/components/OurProjects2/OurProjects2";
 import BentoSet2 from "@/components/BentoSet2/BentoSet2";
 import Footer2 from "@/components/Footer2/Footer2";
 import Header3 from "@/components/Header3/Header3";
+import HorizontalStrip from "@/components/HorizontalStrip/HorizontalStrip";
 
 export default function Campaign() {
 
@@ -25,6 +26,7 @@ export default function Campaign() {
       {/* <HeaderNew/> */}
       <Header3 />
       <Hero2 />
+      <HorizontalStrip/>
 
       <div className="w-full flex justify-center items-center flex-col ">
         <Static11 />
@@ -46,7 +48,7 @@ export default function Campaign() {
 
           {/* Online Services Button */}
           <a >
-            <button className="group relative bg-[#c9db00] text-[#222] font-bold py-4 px-8 rounded-lg text-xl transition-all duration-300 transform hover:scale-105 hover:shadow-xl min-w-64 border-2 border-white"
+            <button className="group relative bg-[#35f90e] text-[#fff] font-bold py-4 px-8 rounded-lg text-xl transition-all duration-300 transform hover:scale-105 hover:shadow-xl min-w-64 border-2 border-white"
             
             onClick={() => scrollToSection('online-services')}
 >
@@ -60,7 +62,7 @@ export default function Campaign() {
           </button>
           </a>
           <a href="/services">
-            <button className="group relative bg-[#c9db00] text-white font-bold py-4 px-8 rounded-lg text-xl transition-all duration-300 transform hover:scale-105 hover:shadow-xl min-w-64">
+            <button className="group relative bg-[#35f90e] text-white font-bold py-4 px-8 rounded-lg text-xl transition-all duration-300 transform hover:scale-105 hover:shadow-xl min-w-64">
             <div className="flex items-center justify-center space-x-3">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M12 2L2 7V10C2 16 6 20.9 12 22C18 20.9 22 16 22 10V7L12 2Z"/>

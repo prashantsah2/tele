@@ -1,11 +1,14 @@
 "use client"
 import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
-import { Phone, Search, User } from "lucide-react"
+import { ChevronDown, Phone, Search, User } from "lucide-react"
+import { AnimatePresence } from "framer-motion"
 
 export default function Header3() {
   const [isVisible, setIsVisible] = useState(true)
   const [lastScrollY, setLastScrollY] = useState(0)
+
+   const [showServicesDropdown, setShowServicesDropdown] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -67,18 +70,67 @@ export default function Header3() {
           />
           <Search className="absolute right-3 top-2.5 w-5 h-5 text-gray-300" />
         </motion.div>
-        <a href="/services">
-        <motion.div 
-          className="flex items-center space-x-2 text-primary"
-          whileHover={{ scale: 1.05 }}
-          transition={{ duration: 0.2 }}
+            <div 
+          className="relative"
+          onMouseEnter={() => setShowServicesDropdown(true)}
+          onMouseLeave={() => setShowServicesDropdown(false)}
         >
-          <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center">
-            <div className="w-3 h-3 bg-white rounded-full"></div>
-          </div>
-          <span className="text-lg font-semibold">Services</span>
-        </motion.div>
-        </a>
+          <motion.div 
+            className="flex items-center space-x-2 text-primary cursor-pointer"
+            whileHover={{ scale: 1.05 }}
+            transition={{ duration: 0.2 }}
+          >
+            <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center">
+              <div className="w-3 h-3 bg-white rounded-full"></div>
+            </div>
+            <span className="text-lg font-semibold">Services</span>
+            <motion.div
+              animate={{ rotate: showServicesDropdown ? 180 : 0 }}
+              transition={{ duration: 0.2 }}
+            >
+              <ChevronDown className="w-4 h-4" />
+            </motion.div>
+          </motion.div>
+
+          {/* Dropdown Menu */}
+          <AnimatePresence>
+            {showServicesDropdown && (
+              <motion.div
+                className="absolute top-full left-0 mt-2 w-48 bg-[#111] backdrop-blur-md rounded-lg shadow-xl border border-green-600/30 overflow-hidden"
+                initial={{ opacity: 0, y: -10, scale: 0.95 }}
+                animate={{ opacity: 1, y: 0, scale: 1 }}
+                exit={{ opacity: 0, y: -10, scale: 0.95 }}
+                transition={{ duration: 0.2 }}
+              >
+                <a href="/services/">
+                  <motion.div
+                    className="px-4 py-3 text-white hover:bg-primarybg transition-colors duration-200 cursor-pointer border-b border-gray-700/50"
+                    whileHover={{ x: 4 }}
+                    transition={{ duration: 0.2 }}
+                  >
+                    <div className="flex items-center space-x-3">
+                      <div className="w-2 h-2 bg-primarybg rounded-full"></div>
+                      <span className="font-medium">Online Services</span>
+                    </div>
+                  </motion.div>
+                </a>
+                
+                <a href="/services/">
+                  <motion.div
+                    className="px-4 py-3 text-white hover:bg-green-600/20 transition-colors duration-200 cursor-pointer"
+                    whileHover={{ x: 4 }}
+                    transition={{ duration: 0.2 }}
+                  >
+                    <div className="flex items-center space-x-3">
+                      <div className="w-2 h-2 bg-primarybg rounded-full"></div>
+                      <span className="font-medium">Offline Services</span>
+                    </div>
+                  </motion.div>
+                </a>
+              </motion.div>
+            )}
+          </AnimatePresence>
+        </div>
 
        <a href="/aboutus">
          <motion.div 
