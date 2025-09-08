@@ -39,7 +39,7 @@ export default function HorizontalStrip() {
   )
 
   return (
-    <div className="relative w-full h-20 bg-[#1c41f6] mt-[-65px] z-50 max-w-[100vw] overflow-hidden flex items-center">
+    <div className="relative w-full h-20 bg-[#1c41f6] mt-[-53px] z-50 max-w-[100vw] overflow-hidden flex items-center max-sm:mt-[-1px]">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-green-400/10 to-transparent"></div>

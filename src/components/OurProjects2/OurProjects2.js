@@ -88,7 +88,7 @@ const OurProjects2 = () => {
   };
 
   return (
-    <div className="min-h-screen bg-primarybg text-white w-full relative w-full">
+    <div className="min-h-screen bg-primarybg text-white w-full relative w-full max-sm:px-4">
 
        <div className="absolute inset-0 opacity-20">
         <svg width="100%" height="100%" className="w-full h-full">
@@ -135,7 +135,7 @@ const OurProjects2 = () => {
           {projects.map((project, index) => (
             <motion.div
               key={project.id}
-              className="bg-white/10 backdrop-blur-md rounded-3xl p-8 border border-white/20 relative overflow-hidden group cursor-pointer"
+              className="bg-white/10 backdrop-blur-md rounded-3xl p-8 border border-white/20 relative overflow-hidden group cursor-pointer max-sm:px-3 max-sm:pt-1"
               variants={cardVariants}
               whileHover="hover"
               custom={index}

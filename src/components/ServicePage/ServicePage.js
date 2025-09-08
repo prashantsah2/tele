@@ -61,9 +61,7 @@ const ServicePage = () => {
     <>
     <div className="min-h-screen bg-primarybg relative overflow-hidden pt-[71px] w-full">
 
-        <div className='flex flex-row justify-center items-center font-bebas text-[71pxs]'>
-          OUR <span className='text-primary'>ONLINE SERVICES</span>
-        </div>
+        
 
           <div className="absolute inset-0 opacity-20">
         <svg width="100%" height="100%" className="w-full h-full">
@@ -182,7 +180,7 @@ const ServicePage = () => {
 
         {/* Services Grid */}
         <motion.div variants={itemVariants} className="mb-12 sm:mb-16 lg:mb-20">
-          <div className='flex flex-row justify-center items-center font-bebas text-[71px] text-[#fff] w-full text-left mb-6 mr-auto'>
+          <div className='flex flex-row justify-center items-center font-bebas text-[71px] max-md:text-[51px] max-sm:text-[31px] text-[#fff] w-full text-left mb-6 mr-auto'>
           OUR <span className='text-primary ml-4'> ONLINE SERVICES</span>
         </div>
 
@@ -307,13 +305,13 @@ const ServicePage = () => {
 
 
 
-    <div className="bg-primarybg text-white p-8 md:p-12 lg:p-16">
+    <div className="bg-primarybg text-white p-8 md:p-12 lg:p-16 max-sm:px-4">
 
-      <div className="text-3xl flex justify-start w-full font-bebas mb-6">
+      <div className="text-3xl flex justify-start w-full font-bebas mb-6 max-sm:justify-center">
         WEB DEVELOPMENT SERVICES
       </div>
       {/* Header */}
-      <div className=" rounded-lg p-6 mb-12">
+      <div className=" rounded-lg p-6 mb-12 max-sm:mb-3">
         <h2 className="text-xl md:text-2xl lg:text-3xl  text-center leading-tight">
           Why Website Development is <span className="text-primary">Essential</span> for 
           Startups and Small Businesses ?
@@ -500,7 +498,7 @@ const ServicePage = () => {
 
 
 
-    <div className="bg-primarybg text-white p-8 md:p-12 lg:p-16">
+    <div className="bg-primarybg text-white p-8 md:p-12 lg:p-16 max-sm:px-4">
       {/* Header */}
       <div className="text-center mb-12">
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-tight mb-4">
@@ -655,7 +653,7 @@ const ServicePage = () => {
       </div>
 
       {/* Call to action */}
-      <div className="text-center mt-16 bg-gradient-to-r from-primary/20 to-blue-500/20 rounded-lg p-8">
+      <div className="text-center mt-16 bg-gradient-to-r from-primary/20 to-blue-500/20 rounded-lg p-8 max-md:mt-8 max-sm:mt-3">
         <h3 className="text-xl md:text-2xl font-bold mb-4">
           Ready to <span className="text-primary">Transform</span> Your Digital Presence?
         </h3>
@@ -668,7 +666,7 @@ const ServicePage = () => {
       </div>
     </div>
   
-    <div className="bg-primarybg text-white p-8 md:p-12 lg:p-16">
+    <div className="bg-primarybg text-white p-8 md:p-12 lg:p-16 max-sm:px-4">
       <div className="text-3xl flex justify-start w-full font-bebas mb-6">
         GRAPHIC DESIGN SERVICES
       </div>

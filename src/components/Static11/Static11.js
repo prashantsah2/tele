@@ -16,7 +16,7 @@ const Static11 = () => {
         </svg>
       </div>
     
-      <div className="relative z-10 container mx-auto px-6 py-16 lg:py-24">
+      <div className="relative z-10 container mx-auto px-6 py-16 lg:py-24 max-sm:px-4">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           
           {/* Left Content */}

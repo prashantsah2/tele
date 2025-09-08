@@ -82,7 +82,7 @@ const faqs = [
         </svg>
       </div>
         
-        <div className="relative z-10 container mx-auto px-6 py-20">
+        <div className="relative z-10 container mx-auto px-6 py-20 max-sm:px-4">
           <div className="max-w-4xl">
             <h1 className="text-6xl md:text-8xl font-bebas mb-8">
               <span className="text-primary">ABOUT</span>
@@ -105,7 +105,7 @@ const faqs = [
         {/* Grid Pattern Background */}
        
 
-        <div className="relative z-10 container mx-auto px-6 py-16 w-full">
+        <div className="relative z-10 container mx-auto px-6 py-16 w-full max-sm:px-4">
           <div className="max-w-[1371px] mx-auto space-y-4">
             {faqs.map((faq, index) => (
               <div

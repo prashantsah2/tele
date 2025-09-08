@@ -84,7 +84,7 @@ export default function PPC() {
   return (
     <div className="min-h-screen bg-primarybg text-white">
       <motion.div 
-        className="container mx-auto px-8 py-12"
+        className="container mx-auto px-8 py-12 max-sm:px-4"
         initial="hidden"
         animate="visible"
         variants={containerVariants}
