@@ -10,16 +10,15 @@ import Header3 from "@/components/Header3/Header3";
 export default function Campaign() {
 
 
-  const scrollToSection = (sectionId) => {
+ const scrollToSection = (sectionId: string) => {
   const element = document.getElementById(sectionId);
   if (element) {
-    element.scrollIntoView({ 
-      behavior: 'smooth',
-      block: 'start' 
+    element.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
     });
   }
 };
-
 
   return (
     <>
