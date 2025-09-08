@@ -102,7 +102,11 @@ export default function Hero2() {
     muted 
     loop 
     playsInline
-    className="absolute top-0 left-0  w-[71px] h-[71px] object-cover z-0"
+    className="absolute top-[31%] right-[12%]  w-[571px] h-[571px] object-cover z-0"
+      style={{
+    filter: 'contrast(1.2) brightness(0.9)',
+    mixBlendMode: 'multiply' // This can help remove white
+  }}
   >
     <source src="/Statue.mp4" type="video/mp4" />
    

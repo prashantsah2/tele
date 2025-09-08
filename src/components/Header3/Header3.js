@@ -53,7 +53,7 @@ export default function Header3() {
     >
 
         <div className="flex items-center space-x-8 mr-6">
-          <Image src={`/image/LOGO.png`} alt="Logo" className='w-32 max-sm:w-24' width={500} height={300} />
+          <Image src={`/image/logo.png`} alt="Logo" className='w-32 max-sm:w-24' width={500} height={300} />
 
         </div>
       <div className=" items-center space-x-8 hidden md:flex">
