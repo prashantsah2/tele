@@ -59,7 +59,7 @@ const ServicePage = () => {
 
   return (
     <>
-    <div className="min-h-screen bg-primarybg relative overflow-hidden pt-[71px] w-full">
+    <div className="min-h-screen bg-primarybg relative overflow-hidden pt-[71px] w-full max-w-[100vw] overflow-x-hidden">
 
         
 
@@ -665,8 +665,8 @@ const ServicePage = () => {
         </button>
       </div>
     </div>
-  
-    <div className="bg-primarybg text-white p-8 md:p-12 lg:p-16 max-sm:px-4">
+     
+    <div className="bg-primarybg text-white p-8 md:p-12 lg:p-16 max-sm:px-4 max-w-[100vw] overflow-x-hidden">
       <div className="text-3xl flex justify-start w-full font-bebas mb-6">
         GRAPHIC DESIGN SERVICES
       </div>

@@ -5,6 +5,7 @@ import { ChevronDown, MenuIcon, Phone, Search, User } from "lucide-react"
 import { AnimatePresence } from "framer-motion"
 
 import { Menu, X } from "lucide-react"
+import Image from "next/image"
 
 export default function Header3() {
   const [isVisible, setIsVisible] = useState(true)
@@ -46,22 +47,22 @@ export default function Header3() {
         duration: 0.3,
         ease: "easeInOut"
       }}
+
+
+
     >
+
+        <div className="flex items-center space-x-8 mr-6">
+          <Image src={`/image/LOGO.png`} alt="Logo" className='w-32 max-sm:w-24' width={500} height={300} />
+
+        </div>
       <div className=" items-center space-x-8 hidden md:flex">
-       <a href="/">
-        <motion.div 
-          className="flex items-center space-x-2 text-primary"
-          whileHover={{ scale: 1.05 }}
-          transition={{ duration: 0.2 }}
-        >
-          <div className="w-8 h-8 bg-primary rounded flex items-center justify-center">
-            <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
-              <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
-            </svg>
-          </div>
-          <span className="text-lg font-semibold">Home</span>
-        </motion.div>
-        </a>
+
+
+      
+
+
+       
 
         <motion.div 
           className="relative"
@@ -96,6 +97,8 @@ export default function Header3() {
               <ChevronDown className="w-4 h-4" />
             </motion.div>
           </motion.div>
+
+          
 
           {/* Dropdown Menu */}
           <AnimatePresence>
@@ -150,7 +153,7 @@ export default function Header3() {
       </div>
 
      <a href="/contact"> <motion.div 
-        className="flex items-center space-x-2 text-white"
+        className="flex items-center space-x-2 text-white max-sm:hidden"
         whileHover={{ scale: 1.05 }}
         transition={{ duration: 0.2 }}
       >
@@ -249,11 +252,12 @@ export default function Header3() {
 
           {/* Contact */}
           <a href="/contact" onClick={() => setIsMobileMenuOpen(false)}>
-            <div className="flex items-center space-x-3 text-white py-3">
-              <span className="text-lg font-semibold">Contact us</span>
-              <div className="w-6 h-6 bg-green-400 rounded-full flex items-center justify-center">
+            <div className="flex items-center space-x-3 text-white py-3 ">
+               <div className="w-6 h-6 bg-green-400 rounded-full flex items-center justify-center">
                 <Phone className="w-3 h-3 text-white" />
               </div>
+              <span className="text-lg font-semibold">Contact us</span>
+            
             </div>
           </a>
         </div>

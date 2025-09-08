@@ -60,7 +60,7 @@ export default function Hero2() {
       </nav> */}
 
       {/* Main Content */}
-      <div className="flex items-center justify-between px-8 py-16 relative z-10 max-md:flex-col max-sm:px-4">
+      <div className="flex items-center justify-between px-8 py-16 relative z-10 max-md:flex-col max-sm:px-4 relative">
         {/* Left Content */}
         <div className="flex-1 max-w-2xl">
           <h1 className="text-7xl lg:text-9xl font-black font-bebas text-primary text-white leading-none mb-6">
@@ -97,6 +97,17 @@ export default function Hero2() {
         <div className="flex-1 flex justify-center items-center relative mb-[-35px] max-md:hidden">
           <Image src={`/image/blazestore.in__4_-removebg-preview.png`} className=' relative object-contain w-full h-[88vh] ' alt="Description of image" width={341} height={341} />
         </div>
+       {/*   <video 
+    autoPlay 
+    muted 
+    loop 
+    playsInline
+    className="absolute top-0 left-0  w-[71px] h-[71px] object-cover z-0"
+  >
+    <source src="/Statue.mp4" type="video/mp4" />
+   
+    Your browser does not support the video tag.
+  </video> */}
       </div>
 
       {/* Background Decorative Elements */}
