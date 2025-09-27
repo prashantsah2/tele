@@ -19,7 +19,7 @@ const OurProjects2 = () => {
       description: "A full-stack e-commerce solution with advanced analytics, inventory management, and seamless payment integration for modern businesses.",
       technologies: ["Next.js", "Stripe", "PostgreSQL", "AWS"],
       image: `/image/proj2.png`,
-      path:"https://clan.business/"
+      path:"https://www.blazestore.in/clanfest/"
     },
     {
       id: 3,
@@ -27,7 +27,7 @@ const OurProjects2 = () => {
       description: "E-commerce platform for buying and selling products with real-time inventory management and analytics.",
       technologies: ["Vue.js", "D3.js", "Python", "API"],
       image: `/image/proj3.png`,
-      path:'https://greenfarmhouse.goldestates.in/'
+      path:'https://www.blazestore.in/'
     },
     {
       id: 4,
@@ -43,7 +43,7 @@ const OurProjects2 = () => {
       description: "Mobile-first fitness application with workout planning, nutrition tracking, and progress visualization with social features.",
       technologies: ["React Native", "Firebase", "Charts", "GPS"],
       image: `/image/proj4.png`,
-      path:''
+      path:'https://greenfarmhouse.goldestates.in/'
     },
     {
       id: 6,
