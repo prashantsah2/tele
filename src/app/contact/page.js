@@ -165,7 +165,7 @@ export default function Contact() {
                 <h3 className="text-xl font-semibold text-white mb-4">Phone Numbers</h3>
                 <div className="space-y-2">
                   <p className="text-gray-300">+91 9818793773</p>
-                  <p className="text-gray-300">+44 7827831857</p>
+                  <p className="text-gray-300">+91 8826615660</p>
                 </div>
               </motion.div>
 
@@ -194,10 +194,10 @@ export default function Contact() {
                 </div>
                 <h3 className="text-xl font-semibold text-white mb-4">Our Location</h3>
                 <div className="text-gray-300 leading-relaxed">
-                  <p>48 Cobb Close</p>
-                  <p>Slough, Berkshire</p>
-                  <p>United Kingdom</p>
-                  <p>SL3 9QZ</p>
+                  <p>A-49, Engine House,</p>
+                  <p>Mohan Industrial Estate, Mathura Road</p>
+                  <p>New Delhi, India</p>
+                  
                 </div>
               </motion.div>
             </div>
