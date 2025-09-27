@@ -10,42 +10,48 @@ const OurProjects2 = () => {
       title: "CLAN Businesss - Marketplace", 
       description: "Clan Marketplace is a cutting-edge platform designed to connect buyers and sellers in a seamless online environment.",
       technologies: ["React", "Node.js", "AI/ML", "MongoDB"],
-      image: '/image/proj1.png'
+      image: '/image/proj1.png',
+      path:"https://clan.business/"
     },
     {
       id: 2,
       title: "Clanfest - An artist event platforms",
       description: "A full-stack e-commerce solution with advanced analytics, inventory management, and seamless payment integration for modern businesses.",
       technologies: ["Next.js", "Stripe", "PostgreSQL", "AWS"],
-      image: `/image/proj2.png`
+      image: `/image/proj2.png`,
+      path:"https://clan.business/"
     },
     {
       id: 3,
       title: "Blaze Store",
       description: "E-commerce platform for buying and selling products with real-time inventory management and analytics.",
       technologies: ["Vue.js", "D3.js", "Python", "API"],
-      image: `/image/proj3.png`
+      image: `/image/proj3.png`,
+      path:'https://greenfarmhouse.goldestates.in/'
     },
     {
       id: 4,
       title: "Gold Estates",
       description: "Comprehensive real estate platform with property listings, virtual tours, and advanced search features.",
       technologies: ["Angular", "Express", "Redis", "Docker"],
-      image: `/image/proj5.png`
+      image: `/image/proj5.png`,
+      path:'https://goldestates.in/'
     },
     {
       id: 5,
       title: "Green Farm House",
       description: "Mobile-first fitness application with workout planning, nutrition tracking, and progress visualization with social features.",
       technologies: ["React Native", "Firebase", "Charts", "GPS"],
-      image: `/image/proj4.png`
+      image: `/image/proj4.png`,
+      path:''
     },
     {
       id: 6,
       title: "ENEN",
       description: "Green energy solutions for a sustainable future.",
       technologies: ["Web3", "Ethereum", "Solidity", "MetaMask"],
-      image: `/image/proj6.png`
+      image: `/image/proj6.png`,
+      path:'https://www.enengreen.com/'
     }
   ];
 
@@ -105,7 +111,7 @@ const OurProjects2 = () => {
       <div className="max-w-[1391px] mx-auto  py-16">
         {/* Header Section */}
         <motion.div 
-          className="text-left mb-16"
+          className="text-left mb-16 md:px-8"
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
@@ -127,7 +133,7 @@ const OurProjects2 = () => {
 
         {/* Projects Grid */}
         <motion.div 
-          className="grid grid-cols-1 lg:grid-cols-2 gap-8"
+          className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:px-8"
           variants={containerVariants}
           initial="hidden"
           animate="visible"
@@ -180,7 +186,7 @@ const OurProjects2 = () => {
                 {/* Project Links */}
                 <div className="flex gap-4">
                   <motion.a
-                    href="#"
+                    href={project.path}
                     className="bg-primary text-white px-5 py-2 rounded-full font-semibold text-sm transition-all duration-300 hover:bg-green-600"
                     whileHover={{ 
                       y: -2,
@@ -188,16 +194,16 @@ const OurProjects2 = () => {
                     }}
                     whileTap={{ scale: 0.95 }}
                   >
-                    Live Demo
+                   View
                   </motion.a>
-                  <motion.a
+                 {/*  <motion.a
                     href="#"
                     className="bg-transparent text-white px-5 py-2 rounded-full font-semibold text-sm border-2 border-white/30 transition-all duration-300 hover:bg-white/10 hover:border-white/50"
                     whileHover={{ y: -2 }}
                     whileTap={{ scale: 0.95 }}
                   >
                     GitHub
-                  </motion.a>
+                  </motion.a> */}
                 </div>
               </motion.div>
             </motion.div>
@@ -211,7 +217,7 @@ const OurProjects2 = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1.5, duration: 0.6 }}
         >
-          <motion.button
+       {/*    <motion.button
             className="bg-primary text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 hover:bg-green-600"
             whileHover={{ 
               scale: 1.05,
@@ -220,7 +226,7 @@ const OurProjects2 = () => {
             whileTap={{ scale: 0.95 }}
           >
             View All Projects →
-          </motion.button>
+          </motion.button> */}
         </motion.div>
       </div>
     </div>

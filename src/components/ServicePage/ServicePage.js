@@ -210,33 +210,12 @@ const ServicePage = () => {
           </div>
         </motion.div>
 
-        {/* Benefits Section */}
-       {/*  <motion.div variants={itemVariants} className="mb-12 sm:mb-16">
-          <div className="bg-gradient-to-r from-green-500/20 to-blue-500/20 backdrop-blur-lg p-6 sm:p-8 lg:p-12 rounded-3xl border border-white/20">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white text-center mb-8 sm:mb-10">
-              Why Choose Us?
-            </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 max-w-3xl mx-auto">
-              {benefits.map((benefit, index) => (
-                <motion.div
-                  key={index}
-                  variants={itemVariants}
-                  className="flex items-center gap-3 sm:gap-4"
-                >
-                  <CheckCircle className="w-5 h-5 sm:w-6 sm:h-6 text-green-400 flex-shrink-0" />
-                  <span className="text-white text-sm sm:text-base lg:text-lg font-medium">
-                    {benefit}
-                  </span>
-                </motion.div>
-              ))}
-            </div>
-          </div>
-        </motion.div> */}
- 
+    
 
        
 
         {/* Stats Section */}
+        
         <motion.div variants={itemVariants} className="mt-12 sm:mt-16 lg:mt-20">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
             {[
@@ -275,32 +254,7 @@ const ServicePage = () => {
      <PPC/>
 
 
-    {/*  <div className="relative w-full mx-auto">
-     
-      <div className=" rounded-lg bg-[#fff] p-8 md:p-12">
-        
-      
-        <div className="text-center mb-8">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-            <span className="text-green-500">High-Impact</span>
-            <span className="text-gray-800"> Website Development</span>
-          </h1>
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800 mt-2">
-            for Startups and Small Businesses
-          </h2>
-        </div>
-
-      
-        <div className="text-center max-w-4xl mx-auto">
-          <p className="text-gray-700 text-lg md:text-xl leading-relaxed">
-            We help you create a website that not only looks great but also drives conversions for your business.
-          </p>
-          <p className="text-gray-700 text-lg md:text-xl leading-relaxed mt-2">
-            Our web development services are designed to showcase your brand, attract customers, and increase sales.
-          </p>
-        </div>
-      </div>
-    </div> */}
+   
 
 
 

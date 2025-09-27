@@ -164,8 +164,8 @@ export default function Contact() {
                 </div>
                 <h3 className="text-xl font-semibold text-white mb-4">Phone Numbers</h3>
                 <div className="space-y-2">
-                  <p className="text-gray-300">+44 7123 456789</p>
-                  <p className="text-gray-300">+44 7987 654321</p>
+                  <p className="text-gray-300">+91 9818793773</p>
+                  <p className="text-gray-300">+44 7827831857</p>
                 </div>
               </motion.div>
 
@@ -179,8 +179,8 @@ export default function Contact() {
                 </div>
                 <h3 className="text-xl font-semibold text-white mb-4">Email Addresses</h3>
                 <div className="space-y-2">
-                  <p className="text-gray-300 break-all">connect@yellowinkdigital.com</p>
-                  <p className="text-gray-300 break-all">support@yellowinkdigital.com</p>
+                  <p className="text-gray-300 break-all">info@clan.business</p>
+                  <p className="text-gray-300 break-all">support@clan.business</p>
                 </div>
               </motion.div>
 

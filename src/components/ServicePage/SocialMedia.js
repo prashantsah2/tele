@@ -116,7 +116,7 @@ const SocialMedia = () => {
               className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-black text-white leading-tight mb-6"
             >
               Why Social Media Management is{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-emerald-300">
+              <span className="text-transparent bg-clip-text bg-primary to-emerald-300">
                 Essential
               </span>{' '}
               for Startups and Small Businesses
