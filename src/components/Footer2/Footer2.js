@@ -19,15 +19,13 @@ export default function Footerw() {
             
             {/* Social Media Icons */}
             <div className="flex space-x-4">
-              <a href="#" className="bg-gray-700 hover:bg-green-400 p-3 rounded-full transition-all duration-300 hover:scale-110 group">
+              <a href="https://www.instagram.com/clandigital.in?igsh=MTJvODEybmI1N25iMA==" className="bg-gray-700 hover:bg-green-400 p-3 rounded-full transition-all duration-300 hover:scale-110 group">
                 <Facebook className="w-5 h-5 text-white group-hover:text-gray-900" />
               </a>
-              <a href="#" className="bg-gray-700 hover:bg-green-400 p-3 rounded-full transition-all duration-300 hover:scale-110 group">
+              <a href="https://www.facebook.com/share/1BJmWKQjqz/" className="bg-gray-700 hover:bg-green-400 p-3 rounded-full transition-all duration-300 hover:scale-110 group">
                 <Instagram className="w-5 h-5 text-white group-hover:text-gray-900" />
               </a>
-              <a href="#" className="bg-gray-700 hover:bg-green-400 p-3 rounded-full transition-all duration-300 hover:scale-110 group">
-                <Linkedin className="w-5 h-5 text-white group-hover:text-gray-900" />
-              </a>
+            
             </div>
           </div>
 
