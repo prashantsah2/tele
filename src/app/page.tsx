@@ -1,6 +1,7 @@
 "use client"
 import Header from "@/components/Header/Header";
 import ServiceCard from "@/components/ServiceCard/ServiceCard";
+import Image from "next/image";
 
 export default function Campaign() {
 
@@ -15,7 +16,7 @@ export default function Campaign() {
   }
 };
 
-const defaultConfig = {
+const defaultConfig2 = {
   theme: {
     gradient: "from-blue-600 via-blue-700 to-blue-800",
     background: "from-gray-50 to-gray-100"
@@ -72,8 +73,11 @@ const defaultConfig = {
     <>
      <Header/>
      <div className="flex flex-col justify-center items-center">
-     <ServiceCard  defaultConfig={defaultConfig}/>
-    <ServiceCard  defaultConfig={defaultConfig}/>
+     <div className="w-full bg-[#fefefe] flex justify-center items-center">
+      <Image className="w-full h-screen flex justify-center items-center aspect-square object-cover max-w-[511px]" src={`/bc91ba92-36a8-48f6-8f43-52aae6addf7e.jpg`} alt="Campaign Image" width={800} height={400} />
+     </div>
+     <ServiceCard  defaultConfig={defaultConfig2}/>
+    <ServiceCard  defaultConfig={defaultConfig2}/>
      </div>
       
     </>
