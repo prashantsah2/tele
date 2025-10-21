@@ -11,6 +11,8 @@ const  ContactForm1 = () => {
     subject: '',
     message: ''
   });
+  const [responseMsg, setResponseMsg] = useState('');
+  
 
   const containerVariants = {
     hidden: { opacity: 0, y: 50 },
@@ -41,10 +43,39 @@ const  ContactForm1 = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
-    // Handle form submission here
+    
+    setResponseMsg('');
+
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData)
+      });
+
+      if (!res.ok) {
+        throw new Error('Failed to send message');
+      }
+
+      const data = await res.json();
+      setResponseMsg(data.message || 'Message sent successfully!');
+      setFormData({
+        firstName: '',
+        lastName: '',
+        email: '',
+        phone: '',
+        subject: '',
+        message: ''
+      });
+    } catch (err) {
+      setResponseMsg('Something went wrong. Please try again.');
+    } finally {
+   
+    }
   };
 
   return (
@@ -178,7 +209,7 @@ const  ContactForm1 = () => {
               <div className="flex gap-4">
                 <motion.button
                   type="button"
-                  onClick={() => console.log('Form submitted:', formData)}
+                  onClick={handleSubmit}
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   className="bg-[#222] text-[#fff] px-8 py-4 rounded-full font-semibold hover:bg-lime-300 transition-colors"

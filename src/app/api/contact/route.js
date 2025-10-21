@@ -3,9 +3,14 @@ import nodemailer from "nodemailer";
 
 export async function POST(req) {
   try {
-    const { name, email, message } = await req.json();
+    const {  firstName,
+        lastName,
+        email,
+        phone,
+        subject,
+        message } = await req.json();
 
-    if (!name || !email || !message) {
+    if (!firstName || !lastName || !email || !phone || !subject || !message) {
       return Response.json({ error: "Missing fields" }, { status: 400 });
     }
 
@@ -26,9 +31,12 @@ export async function POST(req) {
       to: recipients,
       subject: "New Contact Form Submission",
       text: `
-Name: ${name}
-Email: ${email}
-Message: ${message}
+        name: ${firstName} + " " + ${lastName},
+       
+        email: ${email},
+        phone: ${phone},
+        subject: ${subject},
+        message: ${message}
       `,
     };
 
