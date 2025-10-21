@@ -69,9 +69,9 @@ export default function Header() {
             <button className="px-6 py-2.5 text-blue-600 font-semibold hover:text-blue-700 transition-colors max-sm:px-2 max-sm:text-sm">
               Login 
             </button>
-            <button className="px-6 py-2.5 bg-black text-white rounded-lg font-semibold hover:bg-gray-800 transition-colors max-sm:px-2 max-sm:text-sm">
+           <a href='/contact'><button className="px-6 py-2.5 bg-black text-white rounded-lg font-semibold hover:bg-gray-800 transition-colors max-sm:px-2 max-sm:text-sm">
              Contact us 
-            </button>
+            </button></a> 
           </div>
         </div>
       </div>

@@ -181,7 +181,7 @@ const  ContactForm1 = () => {
                   onClick={() => console.log('Form submitted:', formData)}
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  className="bg-secondary text-[#fff] px-8 py-4 rounded-full font-semibold hover:bg-lime-300 transition-colors"
+                  className="bg-[#222] text-[#fff] px-8 py-4 rounded-full font-semibold hover:bg-lime-300 transition-colors"
                 >
                   Send Message
                 </motion.button>
