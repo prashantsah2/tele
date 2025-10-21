@@ -16,7 +16,7 @@ export default function ServiceCard({defaultConfig}) {
   const TopCardIcon = iconMap[config.cards.topCard.icon] || Send
 
   return (
-    <div className={`w-full bg-gradient-to-br ${config.theme.background} flex items-center justify-center p-8`}>
+    <div className={`w-full bg-gradient-to-br ${config.theme.background} flex items-center justify-center p-8 max-sm:px-2`}>
       <div className={`max-w-[1391px] w-full bg-gradient-to-br ${config.theme.gradient} rounded-3xl shadow-2xl overflow-hidden relative`}>
         
         {/* Decorative circles */}

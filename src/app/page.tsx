@@ -74,7 +74,7 @@ const defaultConfig2 = {
      <Header/>
      <div className="flex flex-col justify-center items-center">
      <div className="w-full bg-[#fefefe] flex justify-center items-center">
-      <Image className="w-full h-screen flex justify-center items-center aspect-square object-cover max-w-[511px]" src={`/bc91ba92-36a8-48f6-8f43-52aae6addf7e.jpg`} alt="Campaign Image" width={800} height={400} />
+      <Image className="w-full h-screen flex justify-center items-center aspect-square object-cover max-w-[511px] max-sm:max-w-[211px] max-sm:object-contain" src={`/bc91ba92-36a8-48f6-8f43-52aae6addf7e.jpg`} alt="Campaign Image" width={800} height={400} />
      </div>
      <ServiceCard  defaultConfig={defaultConfig2}/>
     <ServiceCard  defaultConfig={defaultConfig2}/>

@@ -2,7 +2,7 @@ import { Phone, Instagram, Linkedin, Twitter, ChevronDown } from 'lucide-react';
 
 export default function Header() {
   return (
-    <header className="bg-white border-b border-gray-200">
+    <header className="bg-white border-b border-gray-200 max-sm:px-3">
       {/* Top Bar */}
       <div className="border-b border-gray-100">
         <div className="max-w-[1391px] mx-auto">
@@ -28,7 +28,7 @@ export default function Header() {
 
       {/* Main Navigation */}
       <div className="w-full">
-        <div className="flex justify-between items-center h-20 max-w-[1391px] ml-auto mr-auto">
+        <div className="flex justify-between items-center h-20 max-w-[1391px] ml-auto mr-auto max-sm:h-16">
           {/* Logo */}
          <a href='/'> <div className="flex items-center">
             <div className="flex items-center space-x-2">
@@ -66,10 +66,10 @@ export default function Header() {
 
           {/* CTA Buttons */}
           <div className="flex items-center space-x-4">
-            <button className="px-6 py-2.5 text-blue-600 font-semibold hover:text-blue-700 transition-colors">
+            <button className="px-6 py-2.5 text-blue-600 font-semibold hover:text-blue-700 transition-colors max-sm:px-2 max-sm:text-sm">
               Login 
             </button>
-            <button className="px-6 py-2.5 bg-black text-white rounded-lg font-semibold hover:bg-gray-800 transition-colors">
+            <button className="px-6 py-2.5 bg-black text-white rounded-lg font-semibold hover:bg-gray-800 transition-colors max-sm:px-2 max-sm:text-sm">
              Contact us 
             </button>
           </div>
