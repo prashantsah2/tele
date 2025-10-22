@@ -120,10 +120,10 @@ export default function Footer() {
           <div className="flex flex-col justify-start">
             <p className="font-outfit text-2xl text-white mb-2 font-semibold">Get in Touch</p>
             <p className="font-outfit text-sm text-blue-200 mb-1">Email us at</p>
-            <p className="font-outfit text-md text-white mb-4">hello@marketpulse.agency</p>
+            <p className="font-outfit text-md text-white mb-4">info@bulkmessagee.in</p>
             
             <p className="font-outfit text-sm text-blue-200 mb-1">Call us</p>
-            <p className="font-outfit text-md text-white mb-4">+1 (555) 123-4567</p>
+            <p className="font-outfit text-md text-white mb-4">+91 8789004981</p>
 
             {/* Social Media */}
             <div className="flex flex-row gap-4 mt-4">
@@ -151,9 +151,9 @@ export default function Footer() {
             <div className="w-8 h-8 bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-lg">M</span>
             </div>
-            <p className="text-xl font-outfit text-white font-bold">MarketPulse</p>
+            <p className="text-xl font-outfit text-white font-bold">Company Logo</p>
           </div>
-          <p className="font-outfit text-sm text-blue-300">© 2024 MarketPulse Agency. All rights reserved.</p>
+          <p className="font-outfit text-sm text-blue-300">© 2025 Logo. All rights reserved.</p>
         </div>
       </div>
     </div>
