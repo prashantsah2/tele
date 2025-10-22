@@ -233,8 +233,8 @@ const  ContactForm1 = () => {
               <div className="mb-8">
                 <h3 className="text-2xl font-bold mb-4">Address</h3>
                 <p className="text-gray-700">
-                  4517 Washington Ave, Manchester, <br />
-                  Kentucky 39495
+                 Manaspuri ward no, 26, motihari, bihar <br />
+                  India
                 </p>
               </div>
 
@@ -242,10 +242,10 @@ const  ContactForm1 = () => {
               <div className="mb-8">
                 <h3 className="text-2xl font-bold mb-4">Contact</h3>
                 <p className="text-gray-700 mb-2">
-                  Phone: +0123-456-789
+                  Phone: 8789004981
                 </p>
                 <p className="text-gray-700">
-                  Email: example@gmail.com
+                  Email: info@bulkmessagee.in
                 </p>
               </div>
 
