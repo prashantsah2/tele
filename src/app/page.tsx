@@ -1,4 +1,5 @@
 "use client"
+import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
 import ServiceCard from "@/components/ServiceCard/ServiceCard";
 import Image from "next/image";
@@ -79,6 +80,7 @@ const defaultConfig2 = {
      <ServiceCard  defaultConfig={defaultConfig2}/>
     <ServiceCard  defaultConfig={defaultConfig2}/>
      </div>
+     <Footer/>
       
     </>
   );

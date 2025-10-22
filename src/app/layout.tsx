@@ -61,7 +61,7 @@ export default function RootLayout({
        
         </Layout>
          <div style={{ position: "fixed", bottom: "99px", right: "40px", zIndex: 1000,boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)", borderRadius: "51%",cursor: "pointer", padding: "10px" }}>
-          <a href="tel:918826612805" target="_blank">
+          <a href="tel:918789004981" target="_blank">
            <Image src={"/image/call icon.png"} alt="whatsapp" width={41} height={41} className="object-cover rounded-full" />
 
           </a>
@@ -70,7 +70,7 @@ export default function RootLayout({
 
         <div style={{ position: "fixed", bottom: "40px", right: "40px", zIndex: 1000,boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)", borderRadius: "50%",cursor: "pointer", padding: "10px" }}>
           
-           <a href="https://wa.me/918826615660" target="_blank">
+           <a href="https://wa.me/918789004981" target="_blank">
          <Image src={"/image/whatsapp.png"} alt="whatsapp" width={41} height={41} className="object-cover" />
         
         </a>

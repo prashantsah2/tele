@@ -8,8 +8,9 @@ export default function Header() {
         <div className="max-w-[1391px] mx-auto">
           <div className="flex justify-between items-center h-14">
             <div className="flex items-center space-x-2 text-gray-700">
-              <Phone className="w-4 h-4" />
-              <span className="text-sm font-medium">123456789</span>
+              <Phone className="w-4 h-4"  />
+              <p>8789004981</p>
+              <span className="text-sm font-medium"></span>
             </div>
             <div className="flex items-center space-x-3">
               <a href="#" className="w-9 h-9 rounded-full bg-blue-600 flex items-center justify-center hover:bg-blue-700 transition-colors">
