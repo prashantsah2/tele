@@ -1,5 +1,6 @@
 import React from 'react';
 import { MessageCircle, Users, BarChart3, Zap, CheckCircle } from 'lucide-react';
+import Form from '../Form/Form';
 
 export default function WhatsAppCard() {
   return (
@@ -28,9 +29,7 @@ export default function WhatsAppCard() {
 
               {/* CTA Button */}
               <div className="pt-4">
-                <button className="bg-transparent border-2 border-white text-white px-8 py-3 rounded-full text-base font-semibold hover:bg-white hover:text-green-600 transition-all duration-300 shadow-lg hover:shadow-xl">
-                  Get Started
-                </button>
+                <Form/>
               </div>
 
               {/* Features Grid */}

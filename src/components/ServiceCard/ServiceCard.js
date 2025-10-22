@@ -1,5 +1,6 @@
 import { MessageCircle, Send, Globe, LucideIcon } from 'lucide-react'
 import { useState } from 'react'
+import Form from '../Form/Form'
 
 // Editable JSON Configuration
 
@@ -45,9 +46,7 @@ export default function ServiceCard({defaultConfig}) {
             
             {/* CTA Button */}
             <div>
-              <button className={`px-8 py-3 bg-transparent border-2 ${config.hero.ctaStyle} rounded-full text-sm font-medium transition-all duration-300`}>
-                {config.hero.ctaText}
-              </button>
+              <Form/>
             </div>
           </div>
           
