@@ -28,18 +28,18 @@ export default function Footer() {
             
             <div className="flex flex-col justify-start  min-w-[180px]">
               <p className="font-outfit text-blue-200 text-xl mb-4 font-semibold">Services</p>
-              <p className="font-outfit text-blue-100 text-sm mb-2 cursor-pointer hover:text-white transition-colors">Digital Marketing</p>    
-              <p className="font-outfit text-blue-100 text-sm mb-2 cursor-pointer hover:text-white transition-colors">SEO Optimization</p>
-              <p className="font-outfit text-blue-100 text-sm mb-2 cursor-pointer hover:text-white transition-colors">Social Media</p>
-              <p className="font-outfit text-blue-100 text-sm mb-2 cursor-pointer hover:text-white transition-colors">Content Strategy</p>
+              <p className="font-outfit text-blue-100 text-sm mb-2 cursor-pointer hover:text-white transition-colors">SMS Marketing</p>    
+              <p className="font-outfit text-blue-100 text-sm mb-2 cursor-pointer hover:text-white transition-colors">RCS Marketing</p>
+              <p className="font-outfit text-blue-100 text-sm mb-2 cursor-pointer hover:text-white transition-colors">Email Marketing</p>
+              <p className="font-outfit text-blue-100 text-sm mb-2 cursor-pointer hover:text-white transition-colors">Voice Call</p>
             </div>
 
             <div className="flex flex-col justify-start  min-w-[180px]">
-              <p className="font-outfit text-blue-200 text-xl mb-4 font-semibold">Solutions</p>
-              <p className="font-outfit text-blue-100 text-sm mb-2 cursor-pointer hover:text-white transition-colors">Brand Development</p>    
-              <p className="font-outfit text-blue-100 text-sm mb-2 cursor-pointer hover:text-white transition-colors">Analytics & Insights</p>
-              <p className="font-outfit text-blue-100 text-sm mb-2 cursor-pointer hover:text-white transition-colors">Marketing Automation</p>
-              <p className="font-outfit text-blue-100 text-sm mb-2 cursor-pointer hover:text-white transition-colors">Growth Strategy</p>
+              <p className="font-outfit text-blue-200 text-xl mb-4 font-semibold">Api Services</p>
+              <p className="font-outfit text-blue-100 text-sm mb-2 cursor-pointer hover:text-white transition-colors">Email API</p>    
+              <p className="font-outfit text-blue-100 text-sm mb-2 cursor-pointer hover:text-white transition-colors">Analytics & Insights API</p>
+              <p className="font-outfit text-blue-100 text-sm mb-2 cursor-pointer hover:text-white transition-colors">Marketing Automation API</p>
+              <p className="font-outfit text-blue-100 text-sm mb-2 cursor-pointer hover:text-white transition-colors">Growth Strategy API</p>
             </div>
 
             <div className="flex flex-col justify-start  min-w-[180px]">
@@ -60,11 +60,10 @@ export default function Footer() {
             <div className="flex flex-row justify-start items-start gap-4 flex-wrap mt-8">
             
             <div className="flex flex-col justify-start  min-w-[180px]">
-              <p className="font-outfit text-blue-200 text-xl mb-4 font-semibold">Services</p>
-              <p className="font-outfit text-blue-100 text-sm mb-2 cursor-pointer hover:text-white transition-colors">Digital Marketing</p>    
-              <p className="font-outfit text-blue-100 text-sm mb-2 cursor-pointer hover:text-white transition-colors">SEO Optimization</p>
-              <p className="font-outfit text-blue-100 text-sm mb-2 cursor-pointer hover:text-white transition-colors">Social Media</p>
-              <p className="font-outfit text-blue-100 text-sm mb-2 cursor-pointer hover:text-white transition-colors">Content Strategy</p>
+              <p className="font-outfit text-blue-200 text-xl mb-4 font-semibold">Plans & Pricing</p>
+              <p className="font-outfit text-blue-100 text-sm mb-2 cursor-pointer hover:text-white transition-colors">Our Pricing</p>    
+              <p className="font-outfit text-blue-100 text-sm mb-2 cursor-pointer hover:text-white transition-colors">Standrds plans</p>
+
             </div>
 
             <div className="flex flex-col justify-start  min-w-[180px]">
@@ -76,11 +75,11 @@ export default function Footer() {
             </div>
 
             <div className="flex flex-col justify-start  min-w-[180px]">
-              <p className="font-outfit text-blue-200 text-xl mb-4 font-semibold">Company</p>
-              <p className="font-outfit text-blue-100 text-sm mb-2 cursor-pointer hover:text-white transition-colors" onClick={() => handleNavigation('about')}>About Us</p>    
-              <p className="font-outfit text-blue-100 text-sm mb-2 cursor-pointer hover:text-white transition-colors" onClick={() => handleNavigation('careers')}>Careers</p>
-              <p className="font-outfit text-blue-100 text-sm mb-2 cursor-pointer hover:text-white transition-colors" onClick={() => handleNavigation('case-studies')}>Case Studies</p>
-              <p className="font-outfit text-blue-100 text-sm mb-2 cursor-pointer hover:text-white transition-colors" onClick={() => handleNavigation('blog')}>Blog</p>
+              <p className="font-outfit text-blue-200 text-xl mb-4 font-semibold">Help and Support</p>
+              <p className="font-outfit text-blue-100 text-sm mb-2 cursor-pointer hover:text-white transition-colors" onClick={() => handleNavigation('about')}>Request a Demo</p>    
+              <p className="font-outfit text-blue-100 text-sm mb-2 cursor-pointer hover:text-white transition-colors" onClick={() => handleNavigation('careers')}>Report a Bug</p>
+              <p className="font-outfit text-blue-100 text-sm mb-2 cursor-pointer hover:text-white transition-colors" onClick={() => handleNavigation('case-studies')}>Help</p>
+              <p className="font-outfit text-blue-100 text-sm mb-2 cursor-pointer hover:text-white transition-colors" onClick={() => handleNavigation('blog')}>Raise a Ticket</p>
             </div>
 
             <div className="flex flex-col justify-start  min-w-[180px]">
